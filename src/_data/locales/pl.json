@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Dlaczego to działa",
   "why": [
-    "Specyfikacja nie służy pierwszemu uruchomieniu. Pierwszą wersję każdy agent zbuduje z jednego promptu. Specyfikacja istnieje po to, by przenosić kontekst przez wszystkie kolejne sesje — aby setna sesja kierowała się tymi samymi zasadami co pierwsza.",
+    "Każda nowa sesja agenta zaczyna się od czystej kartki: agent nie pamięta, co wcześniej postanowiłeś. Plik zwraca mu ten kontekst — dzięki temu nawet po stu sesjach projekt rozwija się według tych samych zasad co pierwszego dnia.",
     "HUMAN-INTENT.md pozwala kierować rozwojem bez czytania kodu i mieć pewność, że zasady, które włożyłeś w projekt, nigdy nie zostaną rozmyte."
   ],
   "howTitle": "Jak zacząć",

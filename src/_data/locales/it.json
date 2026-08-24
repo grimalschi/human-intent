@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Perché funziona",
   "why": [
-    "Una specifica non serve per la prima esecuzione. Qualsiasi agente può costruire una prima versione da un singolo prompt. La specifica esiste per portare il contesto in ogni sessione successiva — perché la centesima sessione segua gli stessi principi della prima.",
+    "Ogni nuova sessione dell'agente parte da zero: l'agente non ricorda cosa hai deciso prima. Il file gli restituisce quel contesto — così, anche dopo cento sessioni, il progetto segue gli stessi principi del primo giorno.",
     "HUMAN-INTENT.md ti permette di dirigere lo sviluppo senza leggere il codice, con la certezza che i principi che hai messo nel progetto non verranno mai erosi."
   ],
   "howTitle": "Come iniziare",

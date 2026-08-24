@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Warum es funktioniert",
   "why": [
-    "Eine Spezifikation ist nicht für den ersten Durchlauf da. Eine erste Version baut jeder Agent aus einem einzigen Prompt. Die Spezifikation existiert, um den Kontext durch jede folgende Session zu tragen — damit die hundertste Session denselben Prinzipien folgt wie die erste.",
+    "Jede neue Session des Agenten beginnt bei null: Er erinnert sich nicht daran, was du zuvor entschieden hast. Die Datei gibt ihm diesen Kontext zurück — so folgt das Projekt auch hundert Sessions später noch denselben Prinzipien wie am ersten Tag.",
     "Mit HUMAN-INTENT.md lenkst du die Entwicklung, ohne den Code zu lesen — in der Gewissheit, dass die Prinzipien, die du in das Projekt gelegt hast, niemals verwässert werden."
   ],
   "howTitle": "So fängst du an",

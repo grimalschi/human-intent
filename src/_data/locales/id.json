@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Mengapa ini berhasil",
   "why": [
-    "Spesifikasi bukan untuk eksekusi pertama. Versi pertama bisa dibuat agen mana pun dari satu prompt. Spesifikasi ada untuk membawa konteks ke setiap sesi berikutnya — agar sesi keseratus dipandu prinsip yang sama dengan sesi pertama.",
+    "Setiap sesi baru agen dimulai dari nol: agen tidak ingat apa yang sudah Anda putuskan sebelumnya. Berkas ini mengembalikan konteks itu — sehingga bahkan setelah seratus sesi, proyek tetap mengikuti prinsip yang sama seperti hari pertama.",
     "HUMAN-INTENT.md memungkinkan Anda mengarahkan pengembangan tanpa membaca kode, dengan keyakinan bahwa prinsip yang Anda tanamkan dalam proyek tidak akan pernah terkikis."
   ],
   "howTitle": "Cara memulai",

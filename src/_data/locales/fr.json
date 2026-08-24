@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Pourquoi ça marche",
   "why": [
-    "Une spécification ne sert pas au premier passage. N'importe quel agent peut construire une première version à partir d'un simple prompt. La spécification existe pour transmettre le contexte à chaque session suivante — pour que la centième session suive les mêmes principes que la première.",
+    "Chaque nouvelle session de l'agent part d'une page blanche : il ne se souvient pas de ce que vous avez décidé avant. Le fichier lui rend ce contexte — ainsi, même cent sessions plus tard, le projet suit les mêmes principes qu'au premier jour.",
     "HUMAN-INTENT.md vous permet de diriger le développement sans lire le code, avec la certitude que les principes que vous avez posés dans le projet ne seront jamais érodés."
   ],
   "howTitle": "Comment commencer",

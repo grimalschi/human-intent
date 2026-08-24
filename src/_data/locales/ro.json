@@ -32,7 +32,7 @@
   ],
   "whyTitle": "De ce funcționează",
   "why": [
-    "O specificație nu e pentru prima rulare. Orice agent poate construi o primă versiune dintr-un singur prompt. Specificația există ca să poarte contextul prin fiecare sesiune care urmează — pentru ca a suta sesiune să fie ghidată de aceleași principii ca prima.",
+    "Fiecare sesiune nouă a agentului începe de la zero: agentul nu-și amintește ce ai decis înainte. Fișierul îi redă acel context — astfel, chiar și după o sută de sesiuni, proiectul urmează aceleași principii ca în prima zi.",
     "HUMAN-INTENT.md îți permite să direcționezi dezvoltarea fără să citești codul, cu certitudinea că principiile pe care le-ai pus în proiect nu vor fi niciodată erodate."
   ],
   "howTitle": "Cum începi",

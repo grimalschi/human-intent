@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Vì sao nó hiệu quả",
   "why": [
-    "Spec không dành cho lần chạy đầu tiên. Bất kỳ agent nào cũng dựng được phiên bản đầu từ một prompt duy nhất. Spec tồn tại để mang ngữ cảnh qua mọi phiên làm việc tiếp theo — để phiên thứ một trăm vẫn được dẫn dắt bởi những nguyên tắc như phiên đầu tiên.",
+    "Mỗi phiên làm việc mới của agent đều bắt đầu từ trang giấy trắng: agent không nhớ những gì bạn đã quyết định trước đó. Tệp này trả lại cho nó ngữ cảnh ấy — nhờ vậy, dù đến phiên thứ một trăm, dự án vẫn đi theo đúng những nguyên tắc của ngày đầu tiên.",
     "HUMAN-INTENT.md cho phép bạn định hướng phát triển mà không cần đọc code, và yên tâm rằng những nguyên tắc bạn đặt vào dự án sẽ không bao giờ bị bào mòn."
   ],
   "howTitle": "Bắt đầu thế nào",

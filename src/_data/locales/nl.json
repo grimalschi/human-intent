@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Waarom het werkt",
   "why": [
-    "Een specificatie is niet voor de eerste run. Elke agent bouwt een eerste versie op basis van één prompt. De specificatie bestaat om context mee te nemen naar elke volgende sessie — zodat de honderdste sessie dezelfde principes volgt als de eerste.",
+    "Elke nieuwe sessie van de agent begint met een schone lei: de agent weet niet meer wat je eerder hebt besloten. Het bestand geeft die context terug — zo volgt het project ook honderd sessies later nog dezelfde principes als op dag één.",
     "Met HUMAN-INTENT.md stuur je de ontwikkeling zonder de code te lezen, in de zekerheid dat de principes die je in het project hebt gelegd nooit vervagen."
   ],
   "howTitle": "Hoe te beginnen",

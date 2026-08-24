@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Por qué funciona",
   "why": [
-    "Una especificación no es para la primera ejecución. Cualquier agente puede construir una primera versión con un solo prompt. La especificación existe para llevar el contexto a cada sesión posterior — para que la sesión número cien se guíe por los mismos principios que la primera.",
+    "Cada nueva sesión del agente empieza desde cero: el agente no recuerda lo que decidiste antes. El archivo le devuelve ese contexto — así, incluso cien sesiones después, el proyecto sigue los mismos principios que el primer día.",
     "HUMAN-INTENT.md te permite dirigir el desarrollo sin leer el código, con la certeza de que los principios que pusiste en el proyecto nunca se erosionarán."
   ],
   "howTitle": "Cómo empezar",

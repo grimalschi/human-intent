@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Why it works",
   "why": [
-    "A spec is not for the first run. Any agent can build a first version from a single prompt. The spec exists to carry context through every session that follows — so that the hundredth session is guided by the same principles as the first.",
+    "Every new agent session starts from a blank slate: the agent doesn't remember what you decided before. The file gives that context back — so even a hundred sessions later, the project still follows the same principles as on day one.",
     "HUMAN-INTENT.md lets you direct development without reading the code, and stay certain that the principles you put into the project are never eroded."
   ],
   "howTitle": "How to start",

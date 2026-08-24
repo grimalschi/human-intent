@@ -32,7 +32,7 @@
   ],
   "whyTitle": "Neden işe yarıyor",
   "why": [
-    "Spesifikasyon ilk çalıştırma için değildir. İlk sürümü herhangi bir ajan tek bir istemle üretebilir. Spesifikasyon, bağlamı sonraki her oturuma taşımak için vardır — yüzüncü oturumun da ilkiyle aynı ilkelerle yönlenmesi için.",
+    "Ajanın her yeni oturumu boş bir sayfayla başlar: Ajan daha önce ne karar verdiğinizi hatırlamaz. Dosya o bağlamı ona geri verir — böylece yüzüncü oturumda bile proje ilk günkü ilkelerle ilerler.",
     "HUMAN-INTENT.md, kodu okumadan geliştirmeyi yönlendirmenizi sağlar ve projeye koyduğunuz ilkelerin asla aşınmayacağından emin olmanızı sağlar."
   ],
   "howTitle": "Nasıl başlanır",
