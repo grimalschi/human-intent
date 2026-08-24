@@ -1,0 +1,48 @@
+{
+  "code": "de",
+  "name": "Deutsch",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — die Datei, die KI-Entwicklung unter menschlicher Kontrolle hält",
+  "metaDescription": "HUMAN-INTENT.md ist eine einzelne Datei, die nur ein Mensch schreibt und die für KI-Agenten Gesetz ist: die Architektur des Projekts, die Entwicklungsregeln und die Produktentscheidungen.",
+  "tagline": "Eine Datei, die KI-getriebene Entwicklung unter menschlicher Kontrolle hält.",
+  "problemTitle": "Das Problem",
+  "problem": [
+    "Seien wir ehrlich: Wir wollen keinen Code mehr lesen. Wir wollen Agenten nicht beaufsichtigen und alles überprüfen, was sie tun, und nicht jedes technische Detail des Projekts im Blick behalten.",
+    "Aber wenn niemand die Agenten kontrolliert, verwandeln sie jedes Projekt in ein unwartbares Chaos, das weder Mensch noch Agent noch entwirren kann. Es ist nur eine Frage der Zeit."
+  ],
+  "ideaTitle": "Die Idee",
+  "idea": [
+    "HUMAN-INTENT.md ist eine einzelne Datei im Stammverzeichnis deines Repositories. Sie enthält deine Absicht: die Architektur des Projekts, die Entwicklungsregeln und die Produktentscheidungen.",
+    "Sie ist keine Dokumentation des Codes. Sie ist das Gesetz, dem der Code gehorchen muss."
+  ],
+  "rulesTitle": "Drei Regeln",
+  "rules": [
+    {
+      "title": "Von dir geschrieben — und nur von dir",
+      "body": "Agenten bearbeiten diese Datei niemals. Jede Zeile darin ist eine Entscheidung, die ein Mensch getroffen hat."
+    },
+    {
+      "title": "Ihre Anweisungen sind Gesetz für den Agenten",
+      "body": "Was in HUMAN-INTENT.md steht, geht allem anderen vor. Widerspricht der Code der Datei, liegt der Fehler im Code."
+    },
+    {
+      "title": "Sie definiert Architektur, Regeln und Produkt",
+      "body": "Absicht, keine Rezepte. Der Agent kennt bereits alle Patterns und Architekturen; deine Aufgabe ist festzulegen, was gelten muss — und warum."
+    }
+  ],
+  "whyTitle": "Warum es funktioniert",
+  "why": [
+    "Eine Spezifikation ist nicht für den ersten Durchlauf da. Eine erste Version baut jeder Agent aus einem einzigen Prompt. Die Spezifikation existiert, um den Kontext durch jede folgende Session zu tragen — damit die hundertste Session denselben Prinzipien folgt wie die erste.",
+    "Mit HUMAN-INTENT.md lenkst du die Entwicklung, ohne den Code zu lesen — in der Gewissheit, dass die Prinzipien, die du in das Projekt gelegt hast, niemals verwässert werden."
+  ],
+  "howTitle": "So fängst du an",
+  "how": [
+    "Lege HUMAN-INTENT.md im Stammverzeichnis deines Repositories an.",
+    "Schreibe die Entscheidungen auf, die du bereits getroffen hast: Architektur, Entwicklungsregeln, Produkt.",
+    "Weise deinen Agenten an, die Datei zu lesen und als Gesetz zu behandeln — verweise aus AGENTS.md oder CLAUDE.md darauf.",
+    "Trage jede neue Entscheidung in die Datei ein. Lass niemals einen Agenten hineinschreiben.",
+    "Reviewe diese Datei, nicht den Code."
+  ],
+  "langLabel": "Sprache",
+  "footerNote": "MIT-Lizenz"
+}

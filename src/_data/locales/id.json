@@ -1,0 +1,48 @@
+{
+  "code": "id",
+  "name": "Bahasa Indonesia",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — berkas yang menjaga pengembangan dengan AI tetap dalam kendali manusia",
+  "metaDescription": "HUMAN-INTENT.md adalah satu berkas yang hanya ditulis oleh manusia dan menjadi hukum bagi agen AI: arsitektur proyek, aturan pengembangan, dan keputusan produk.",
+  "tagline": "Satu berkas yang menjaga pengembangan berbasis AI tetap dalam kendali manusia.",
+  "problemTitle": "Masalahnya",
+  "problem": [
+    "Jujur saja: kita tidak mau lagi membaca kode. Kita tidak mau mengawasi agen dan memeriksa semua yang mereka lakukan, atau mengikuti setiap detail teknis proyek.",
+    "Namun jika tidak ada yang mengendalikan para agen, mereka akan mengubah proyek apa pun menjadi kekacauan yang mustahil dipelihara — yang tak bisa diurai baik oleh manusia maupun agen. Hanya soal waktu."
+  ],
+  "ideaTitle": "Idenya",
+  "idea": [
+    "HUMAN-INTENT.md adalah satu berkas di akar repositori Anda. Ia memuat niat Anda: arsitektur proyek, aturan pengembangan, dan keputusan produk.",
+    "Ini bukan dokumentasi kode. Ini hukum yang harus dipatuhi oleh kode."
+  ],
+  "rulesTitle": "Tiga aturan",
+  "rules": [
+    {
+      "title": "Ditulis oleh Anda — dan hanya Anda",
+      "body": "Agen tidak pernah menyunting berkas ini. Setiap barisnya adalah keputusan yang diambil manusia."
+    },
+    {
+      "title": "Instruksinya adalah hukum bagi agen",
+      "body": "Apa yang tertulis di HUMAN-INTENT.md mengalahkan segalanya. Jika kode bertentangan dengan berkas ini, kodelah yang salah."
+    },
+    {
+      "title": "Ia menetapkan arsitektur, aturan, dan produk",
+      "body": "Niat, bukan resep. Agen sudah tahu semua pola dan arsitektur; tugas Anda menetapkan apa yang harus berlaku — dan mengapa."
+    }
+  ],
+  "whyTitle": "Mengapa ini berhasil",
+  "why": [
+    "Spesifikasi bukan untuk eksekusi pertama. Versi pertama bisa dibuat agen mana pun dari satu prompt. Spesifikasi ada untuk membawa konteks ke setiap sesi berikutnya — agar sesi keseratus dipandu prinsip yang sama dengan sesi pertama.",
+    "HUMAN-INTENT.md memungkinkan Anda mengarahkan pengembangan tanpa membaca kode, dengan keyakinan bahwa prinsip yang Anda tanamkan dalam proyek tidak akan pernah terkikis."
+  ],
+  "howTitle": "Cara memulai",
+  "how": [
+    "Buat HUMAN-INTENT.md di akar repositori Anda.",
+    "Tuliskan keputusan yang sudah Anda ambil: arsitektur, aturan pengembangan, produk.",
+    "Minta agen Anda membaca berkas ini dan memperlakukannya sebagai hukum — rujuk dari AGENTS.md atau CLAUDE.md.",
+    "Setiap kali mengambil keputusan baru, tambahkan ke berkas. Jangan pernah biarkan agen menulis di dalamnya.",
+    "Tinjau berkas ini, bukan kodenya."
+  ],
+  "langLabel": "Bahasa",
+  "footerNote": "Lisensi MIT"
+}

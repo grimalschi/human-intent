@@ -1,0 +1,141 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #0b57d0;
+  --rule: #e5e5e5;
+  --code-bg: #f4f4f4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --fg: #e8e8e8;
+    --muted: #9a9a9a;
+    --accent: #8ab4f8;
+    --rule: #2c2c2c;
+    --code-bg: #1e1e1e;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+  max-width: 42rem;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+header {
+  margin-bottom: 2.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+section {
+  margin-bottom: 2.25rem;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin: 0 0 0.75rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.25rem;
+}
+
+p {
+  margin: 0 0 0.9rem;
+}
+
+ol.rules {
+  list-style: none;
+  counter-reset: rule;
+  margin: 0;
+  padding: 0;
+}
+
+ol.rules li {
+  counter-increment: rule;
+  position: relative;
+  padding-inline-start: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+ol.rules li::before {
+  content: counter(rule);
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0.05rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+ol.how {
+  margin: 0;
+  padding-inline-start: 1.4rem;
+}
+
+ol.how li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.languages .current {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+}

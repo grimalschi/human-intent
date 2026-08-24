@@ -1,0 +1,48 @@
+{
+  "code": "ro",
+  "name": "Română",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — fișierul care ține dezvoltarea cu AI sub controlul omului",
+  "metaDescription": "HUMAN-INTENT.md este un singur fișier, scris doar de un om, care este lege pentru agenții AI: arhitectura proiectului, regulile de dezvoltare și deciziile de produs.",
+  "tagline": "Un singur fișier care ține dezvoltarea bazată pe AI sub controlul omului.",
+  "problemTitle": "Problema",
+  "problem": [
+    "Să fim sinceri: nu mai vrem să citim cod. Nu vrem să supraveghem agenții și să verificăm tot ce fac, nici să fim la curent cu fiecare detaliu tehnic al proiectului.",
+    "Dar dacă nimeni nu controlează agenții, ei vor transforma orice proiect într-un haos imposibil de întreținut, pe care nici omul, nici agentul nu-l va mai putea descâlci. E doar o chestiune de timp."
+  ],
+  "ideaTitle": "Ideea",
+  "idea": [
+    "HUMAN-INTENT.md este un singur fișier în rădăcina repository-ului tău. El poartă intenția ta: arhitectura proiectului, regulile de dezvoltare și deciziile de produs.",
+    "Nu este documentația codului. Este legea căreia codul trebuie să i se supună."
+  ],
+  "rulesTitle": "Trei reguli",
+  "rules": [
+    {
+      "title": "Scris de tine — și doar de tine",
+      "body": "Agenții nu editează niciodată acest fișier. Fiecare rând din el este o decizie luată de un om."
+    },
+    {
+      "title": "Instrucțiunile lui sunt lege pentru agent",
+      "body": "Ce spune HUMAN-INTENT.md primează asupra oricărui alt lucru. Dacă codul contrazice fișierul, codul greșește."
+    },
+    {
+      "title": "Definește arhitectura, regulile și produsul",
+      "body": "Intenție, nu rețete. Agentul cunoaște deja toate tiparele și arhitecturile; treaba ta este să fixezi ce trebuie să fie adevărat — și de ce."
+    }
+  ],
+  "whyTitle": "De ce funcționează",
+  "why": [
+    "O specificație nu e pentru prima rulare. Orice agent poate construi o primă versiune dintr-un singur prompt. Specificația există ca să poarte contextul prin fiecare sesiune care urmează — pentru ca a suta sesiune să fie ghidată de aceleași principii ca prima.",
+    "HUMAN-INTENT.md îți permite să direcționezi dezvoltarea fără să citești codul, cu certitudinea că principiile pe care le-ai pus în proiect nu vor fi niciodată erodate."
+  ],
+  "howTitle": "Cum începi",
+  "how": [
+    "Creează HUMAN-INTENT.md în rădăcina repository-ului tău.",
+    "Notează deciziile pe care le-ai luat deja: arhitectură, reguli de dezvoltare, produs.",
+    "Spune-i agentului să citească fișierul și să-l trateze ca lege — fă referire la el din AGENTS.md sau CLAUDE.md.",
+    "De fiecare dată când iei o decizie nouă, adaug-o în fișier. Nu lăsa niciodată un agent să scrie în el.",
+    "Fă review acestui fișier, nu codului."
+  ],
+  "langLabel": "Limbă",
+  "footerNote": "Licența MIT"
+}

@@ -1,0 +1,48 @@
+{
+  "code": "fr",
+  "name": "Français",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — le fichier qui garde le développement par IA sous contrôle humain",
+  "metaDescription": "HUMAN-INTENT.md est un fichier unique, écrit uniquement par un humain, qui fait loi pour les agents IA : l'architecture du projet, les règles de développement et les décisions produit.",
+  "tagline": "Un fichier qui garde le développement par IA sous contrôle humain.",
+  "problemTitle": "Le problème",
+  "problem": [
+    "Soyons honnêtes : nous ne voulons plus lire le code. Nous ne voulons pas surveiller les agents et vérifier tout ce qu'ils font, ni suivre chaque détail technique du projet.",
+    "Mais si personne ne contrôle les agents, ils transformeront n'importe quel projet en un chaos immaintenable que ni un humain ni un agent ne pourra démêler. Ce n'est qu'une question de temps."
+  ],
+  "ideaTitle": "L'idée",
+  "idea": [
+    "HUMAN-INTENT.md est un fichier unique à la racine de votre dépôt. Il porte votre intention : l'architecture du projet, les règles de développement et les décisions produit.",
+    "Ce n'est pas la documentation du code. C'est la loi à laquelle le code doit obéir."
+  ],
+  "rulesTitle": "Trois règles",
+  "rules": [
+    {
+      "title": "Écrit par vous — et vous seul",
+      "body": "Les agents ne modifient jamais ce fichier. Chaque ligne est une décision prise par un humain."
+    },
+    {
+      "title": "Ses instructions font loi pour l'agent",
+      "body": "Ce que dit HUMAN-INTENT.md prime sur tout le reste. Si le code contredit le fichier, c'est le code qui a tort."
+    },
+    {
+      "title": "Il définit l'architecture, les règles et le produit",
+      "body": "L'intention, pas les recettes. L'agent connaît déjà tous les patterns et architectures ; votre rôle est de fixer ce qui doit être vrai — et pourquoi."
+    }
+  ],
+  "whyTitle": "Pourquoi ça marche",
+  "why": [
+    "Une spécification ne sert pas au premier passage. N'importe quel agent peut construire une première version à partir d'un simple prompt. La spécification existe pour transmettre le contexte à chaque session suivante — pour que la centième session suive les mêmes principes que la première.",
+    "HUMAN-INTENT.md vous permet de diriger le développement sans lire le code, avec la certitude que les principes que vous avez posés dans le projet ne seront jamais érodés."
+  ],
+  "howTitle": "Comment commencer",
+  "how": [
+    "Créez HUMAN-INTENT.md à la racine de votre dépôt.",
+    "Notez les décisions déjà prises : architecture, règles de développement, produit.",
+    "Dites à votre agent de lire ce fichier et de le traiter comme une loi — référencez-le depuis AGENTS.md ou CLAUDE.md.",
+    "À chaque nouvelle décision, ajoutez-la au fichier. Ne laissez jamais un agent y écrire.",
+    "Relisez ce fichier, pas le code."
+  ],
+  "langLabel": "Langue",
+  "footerNote": "Licence MIT"
+}

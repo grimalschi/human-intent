@@ -1,0 +1,48 @@
+{
+  "code": "es",
+  "name": "Español",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — el archivo que mantiene la programación con IA bajo control humano",
+  "metaDescription": "HUMAN-INTENT.md es un único archivo, escrito solo por un humano, que actúa como ley para los agentes de IA: la arquitectura del proyecto, las reglas de desarrollo y las decisiones de producto.",
+  "tagline": "Un archivo que mantiene el desarrollo con IA bajo control humano.",
+  "problemTitle": "El problema",
+  "problem": [
+    "Seamos honestos: ya no queremos leer código. No queremos supervisar a los agentes y verificar todo lo que hacen, ni estar al tanto de cada detalle técnico del proyecto.",
+    "Pero si nadie controla a los agentes, convertirán cualquier proyecto en un caos inmantenible que ni un humano ni un agente podrán desenredar. Es solo cuestión de tiempo."
+  ],
+  "ideaTitle": "La idea",
+  "idea": [
+    "HUMAN-INTENT.md es un único archivo en la raíz de tu repositorio. Contiene tu intención: la arquitectura del proyecto, las reglas de desarrollo y las decisiones de producto.",
+    "No es documentación del código. Es la ley que el código debe obedecer."
+  ],
+  "rulesTitle": "Tres reglas",
+  "rules": [
+    {
+      "title": "Lo escribes tú — y solo tú",
+      "body": "Los agentes nunca editan este archivo. Cada línea es una decisión tomada por un humano."
+    },
+    {
+      "title": "Sus instrucciones son ley para el agente",
+      "body": "Lo que dice HUMAN-INTENT.md prevalece sobre todo lo demás. Si el código contradice el archivo, el código está equivocado."
+    },
+    {
+      "title": "Define la arquitectura, las reglas y el producto",
+      "body": "Intención, no recetas. El agente ya conoce todos los patrones y arquitecturas; tu trabajo es fijar qué debe cumplirse — y por qué."
+    }
+  ],
+  "whyTitle": "Por qué funciona",
+  "why": [
+    "Una especificación no es para la primera ejecución. Cualquier agente puede construir una primera versión con un solo prompt. La especificación existe para llevar el contexto a cada sesión posterior — para que la sesión número cien se guíe por los mismos principios que la primera.",
+    "HUMAN-INTENT.md te permite dirigir el desarrollo sin leer el código, con la certeza de que los principios que pusiste en el proyecto nunca se erosionarán."
+  ],
+  "howTitle": "Cómo empezar",
+  "how": [
+    "Crea HUMAN-INTENT.md en la raíz de tu repositorio.",
+    "Anota las decisiones que ya has tomado: arquitectura, reglas de desarrollo, producto.",
+    "Dile a tu agente que lea el archivo y lo trate como ley — referéncialo desde AGENTS.md o CLAUDE.md.",
+    "Cada vez que tomes una nueva decisión, añádela al archivo. Nunca dejes que un agente escriba en él.",
+    "Revisa este archivo, no el código."
+  ],
+  "langLabel": "Idioma",
+  "footerNote": "Licencia MIT"
+}

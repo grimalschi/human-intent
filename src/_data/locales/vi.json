@@ -1,0 +1,48 @@
+{
+  "code": "vi",
+  "name": "Tiếng Việt",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — tệp giữ việc lập trình bằng AI trong tầm kiểm soát của con người",
+  "metaDescription": "HUMAN-INTENT.md là một tệp duy nhất, chỉ do con người viết, và là luật đối với các agent AI: kiến trúc dự án, quy tắc phát triển và các quyết định sản phẩm.",
+  "tagline": "Một tệp duy nhất giữ việc phát triển bằng AI trong tầm kiểm soát của con người.",
+  "problemTitle": "Vấn đề",
+  "problem": [
+    "Hãy thành thật: chúng ta không còn muốn đọc code nữa. Chúng ta không muốn giám sát các agent và kiểm tra mọi thứ chúng làm, cũng không muốn nắm từng chi tiết kỹ thuật của dự án.",
+    "Nhưng nếu không ai kiểm soát các agent, chúng sẽ biến bất kỳ dự án nào thành một mớ hỗn loạn không thể bảo trì — mà cả con người lẫn agent đều không gỡ nổi. Chỉ là vấn đề thời gian."
+  ],
+  "ideaTitle": "Ý tưởng",
+  "idea": [
+    "HUMAN-INTENT.md là một tệp duy nhất nằm ở gốc repository của bạn. Nó chứa ý định của bạn: kiến trúc dự án, quy tắc phát triển và các quyết định sản phẩm.",
+    "Nó không phải là tài liệu của code. Nó là luật mà code phải tuân theo."
+  ],
+  "rulesTitle": "Ba quy tắc",
+  "rules": [
+    {
+      "title": "Do bạn viết — và chỉ mình bạn",
+      "body": "Agent không bao giờ được sửa tệp này. Mỗi dòng trong đó là một quyết định do con người đưa ra."
+    },
+    {
+      "title": "Chỉ dẫn trong đó là luật đối với agent",
+      "body": "Những gì HUMAN-INTENT.md nói được ưu tiên hơn tất cả. Nếu code mâu thuẫn với tệp, thì code sai."
+    },
+    {
+      "title": "Nó xác định kiến trúc, quy tắc và sản phẩm",
+      "body": "Ý định, không phải công thức. Agent vốn đã biết mọi pattern và kiến trúc; việc của bạn là chốt điều gì phải đúng — và vì sao."
+    }
+  ],
+  "whyTitle": "Vì sao nó hiệu quả",
+  "why": [
+    "Spec không dành cho lần chạy đầu tiên. Bất kỳ agent nào cũng dựng được phiên bản đầu từ một prompt duy nhất. Spec tồn tại để mang ngữ cảnh qua mọi phiên làm việc tiếp theo — để phiên thứ một trăm vẫn được dẫn dắt bởi những nguyên tắc như phiên đầu tiên.",
+    "HUMAN-INTENT.md cho phép bạn định hướng phát triển mà không cần đọc code, và yên tâm rằng những nguyên tắc bạn đặt vào dự án sẽ không bao giờ bị bào mòn."
+  ],
+  "howTitle": "Bắt đầu thế nào",
+  "how": [
+    "Tạo HUMAN-INTENT.md ở gốc repository của bạn.",
+    "Ghi lại những quyết định bạn đã đưa ra: kiến trúc, quy tắc phát triển, sản phẩm.",
+    "Yêu cầu agent đọc tệp này và coi nó là luật — tham chiếu nó từ AGENTS.md hoặc CLAUDE.md.",
+    "Mỗi khi có quyết định mới, hãy thêm vào tệp. Không bao giờ để agent viết vào đó.",
+    "Hãy review tệp này, thay vì review code."
+  ],
+  "langLabel": "Ngôn ngữ",
+  "footerNote": "Giấy phép MIT"
+}

@@ -1,0 +1,8 @@
+---
+pagination:
+  data: locales
+  size: 1
+  alias: locale
+permalink: "{% if locale.code == 'en' %}/index.html{% else %}/{{ locale.code }}/index.html{% endif %}"
+layout: base.njk
+---

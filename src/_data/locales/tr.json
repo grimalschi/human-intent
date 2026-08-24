@@ -1,0 +1,48 @@
+{
+  "code": "tr",
+  "name": "Türkçe",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — yapay zekâ ile kodlamayı insan kontrolünde tutan dosya",
+  "metaDescription": "HUMAN-INTENT.md yalnızca insan tarafından yazılan tek bir dosyadır ve yapay zekâ ajanları için yasadır: projenin mimarisi, geliştirme kuralları ve ürün kararları.",
+  "tagline": "Yapay zekâ destekli geliştirmeyi insan kontrolünde tutan tek bir dosya.",
+  "problemTitle": "Sorun",
+  "problem": [
+    "Dürüst olalım: Artık kod okumak istemiyoruz. Ajanları denetlemek, yaptıkları her şeyi doğrulamak ya da projenin her teknik ayrıntısını takip etmek istemiyoruz.",
+    "Ama ajanları kimse kontrol etmezse, her projeyi ne insanın ne de ajanın içinden çıkabileceği, sürdürülemez bir kaosa çevirirler. Bu yalnızca zaman meselesidir."
+  ],
+  "ideaTitle": "Fikir",
+  "idea": [
+    "HUMAN-INTENT.md, deponuzun kök dizinindeki tek bir dosyadır. İçinde sizin niyetiniz yer alır: projenin mimarisi, geliştirme kuralları ve ürün kararları.",
+    "Bu, kodun dokümantasyonu değildir. Kodun uymak zorunda olduğu yasadır."
+  ],
+  "rulesTitle": "Üç kural",
+  "rules": [
+    {
+      "title": "Onu siz yazarsınız — yalnızca siz",
+      "body": "Ajanlar bu dosyayı asla düzenlemez. İçindeki her satır, bir insanın verdiği karardır."
+    },
+    {
+      "title": "Talimatları ajan için yasadır",
+      "body": "HUMAN-INTENT.md'de yazanlar her şeyin üzerindedir. Kod dosyayla çelişiyorsa, yanlış olan koddur."
+    },
+    {
+      "title": "Mimariyi, kuralları ve ürünü tanımlar",
+      "body": "Tarif değil, niyet. Ajan zaten tüm desenleri ve mimarileri bilir; sizin işiniz neyin geçerli olması gerektiğini — ve nedenini — belirlemektir."
+    }
+  ],
+  "whyTitle": "Neden işe yarıyor",
+  "why": [
+    "Spesifikasyon ilk çalıştırma için değildir. İlk sürümü herhangi bir ajan tek bir istemle üretebilir. Spesifikasyon, bağlamı sonraki her oturuma taşımak için vardır — yüzüncü oturumun da ilkiyle aynı ilkelerle yönlenmesi için.",
+    "HUMAN-INTENT.md, kodu okumadan geliştirmeyi yönlendirmenizi sağlar ve projeye koyduğunuz ilkelerin asla aşınmayacağından emin olmanızı sağlar."
+  ],
+  "howTitle": "Nasıl başlanır",
+  "how": [
+    "Deponuzun kök dizininde HUMAN-INTENT.md oluşturun.",
+    "Zaten verdiğiniz kararları yazın: mimari, geliştirme kuralları, ürün.",
+    "Ajanınıza bu dosyayı okumasını ve yasa olarak görmesini söyleyin — AGENTS.md veya CLAUDE.md içinden ona atıfta bulunun.",
+    "Her yeni kararı dosyaya ekleyin. Bir ajanın oraya yazmasına asla izin vermeyin.",
+    "Kodu değil, bu dosyayı gözden geçirin."
+  ],
+  "langLabel": "Dil",
+  "footerNote": "MIT Lisansı"
+}

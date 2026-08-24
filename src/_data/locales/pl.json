@@ -1,0 +1,48 @@
+{
+  "code": "pl",
+  "name": "Polski",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — plik, który trzyma programowanie z AI pod kontrolą człowieka",
+  "metaDescription": "HUMAN-INTENT.md to jeden plik, pisany wyłącznie przez człowieka, będący prawem dla agentów AI: architektura projektu, zasady rozwoju i decyzje produktowe.",
+  "tagline": "Jeden plik, który trzyma rozwój oparty na AI pod kontrolą człowieka.",
+  "problemTitle": "Problem",
+  "problem": [
+    "Bądźmy szczerzy: nie chcemy już czytać kodu. Nie chcemy nadzorować agentów i sprawdzać wszystkiego, co robią, ani być na bieżąco z każdym technicznym szczegółem projektu.",
+    "Ale jeśli nikt nie kontroluje agentów, zamienią każdy projekt w niemożliwy do utrzymania chaos, którego nie rozplącze ani człowiek, ani agent. To tylko kwestia czasu."
+  ],
+  "ideaTitle": "Idea",
+  "idea": [
+    "HUMAN-INTENT.md to jeden plik w katalogu głównym repozytorium. Zawiera twój zamysł: architekturę projektu, zasady rozwoju i decyzje produktowe.",
+    "To nie jest dokumentacja kodu. To prawo, któremu kod musi się podporządkować."
+  ],
+  "rulesTitle": "Trzy zasady",
+  "rules": [
+    {
+      "title": "Piszesz go ty — i tylko ty",
+      "body": "Agenci nigdy nie edytują tego pliku. Każda linia w nim to decyzja podjęta przez człowieka."
+    },
+    {
+      "title": "Jego instrukcje są prawem dla agenta",
+      "body": "To, co mówi HUMAN-INTENT.md, jest ważniejsze od wszystkiego innego. Jeśli kod przeczy plikowi — to kod się myli."
+    },
+    {
+      "title": "Określa architekturę, zasady i produkt",
+      "body": "Zamysł, nie przepisy. Agent i tak zna wszystkie wzorce i architektury; twoim zadaniem jest ustalić, co ma obowiązywać — i dlaczego."
+    }
+  ],
+  "whyTitle": "Dlaczego to działa",
+  "why": [
+    "Specyfikacja nie służy pierwszemu uruchomieniu. Pierwszą wersję każdy agent zbuduje z jednego promptu. Specyfikacja istnieje po to, by przenosić kontekst przez wszystkie kolejne sesje — aby setna sesja kierowała się tymi samymi zasadami co pierwsza.",
+    "HUMAN-INTENT.md pozwala kierować rozwojem bez czytania kodu i mieć pewność, że zasady, które włożyłeś w projekt, nigdy nie zostaną rozmyte."
+  ],
+  "howTitle": "Jak zacząć",
+  "how": [
+    "Utwórz HUMAN-INTENT.md w katalogu głównym repozytorium.",
+    "Zapisz decyzje, które już podjąłeś: architektura, zasady rozwoju, produkt.",
+    "Powiedz agentowi, by czytał ten plik i traktował go jak prawo — odwołaj się do niego w AGENTS.md lub CLAUDE.md.",
+    "Każdą nową decyzję dopisuj do pliku. Nigdy nie pozwól agentowi w nim pisać.",
+    "Rób review tego pliku, nie kodu."
+  ],
+  "langLabel": "Język",
+  "footerNote": "Licencja MIT"
+}

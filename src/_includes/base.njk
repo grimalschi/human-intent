@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="{{ locale.code }}" dir="{{ locale.dir }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ locale.metaTitle }}</title>
+  <meta name="description" content="{{ locale.metaDescription }}">
+  <meta property="og:title" content="{{ locale.metaTitle }}">
+  <meta property="og:description" content="{{ locale.metaDescription }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://human-intent.md{% if locale.code != 'en' %}/{{ locale.code }}/{% else %}/{% endif %}">
+  <link rel="canonical" href="https://human-intent.md{% if locale.code != 'en' %}/{{ locale.code }}/{% else %}/{% endif %}">
+  {%- for l in locales %}
+  <link rel="alternate" hreflang="{{ l.code }}" href="https://human-intent.md{% if l.code != 'en' %}/{{ l.code }}/{% else %}/{% endif %}">
+  {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="https://human-intent.md/">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%9D%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <header>
+    <h1>HUMAN-INTENT.md</h1>
+    <p class="tagline">{{ locale.tagline }}</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>{{ locale.problemTitle }}</h2>
+      {%- for p in locale.problem %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+    </section>
+
+    <section>
+      <h2>{{ locale.ideaTitle }}</h2>
+      {%- for p in locale.idea %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+    </section>
+
+    <section>
+      <h2>{{ locale.rulesTitle }}</h2>
+      <ol class="rules">
+        {%- for rule in locale.rules %}
+        <li>
+          <h3>{{ rule.title }}</h3>
+          <p>{{ rule.body }}</p>
+        </li>
+        {%- endfor %}
+      </ol>
+    </section>
+
+    <section>
+      <h2>{{ locale.whyTitle }}</h2>
+      {%- for p in locale.why %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+    </section>
+
+    <section>
+      <h2>{{ locale.howTitle }}</h2>
+      <ol class="how">
+        {%- for step in locale.how %}
+        <li>{{ step }}</li>
+        {%- endfor %}
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="languages" aria-label="{{ locale.langLabel }}">
+      {%- for l in locales %}
+      {%- if l.code == locale.code %}
+      <span class="current" lang="{{ l.code }}">{{ l.name }}</span>
+      {%- else %}
+      <a href="{% if l.code == 'en' %}/{% else %}/{{ l.code }}/{% endif %}" lang="{{ l.code }}" hreflang="{{ l.code }}" onclick="try{localStorage.setItem('hi-lang','{{ l.code }}')}catch(e){}">{{ l.name }}</a>
+      {%- endif %}
+      {%- endfor %}
+    </nav>
+    <p class="meta">
+      <a href="https://github.com/grimalschi/human-intent">GitHub</a> · {{ locale.footerNote }}
+    </p>
+  </footer>
+
+  {%- if locale.code == 'en' %}
+  <script>
+  (function () {
+    try {
+      var langs = [{% for l in locales %}"{{ l.code }}"{% if not loop.last %},{% endif %}{% endfor %}];
+      if (location.pathname !== "/" && location.pathname !== "/index.html") return;
+      var stored = localStorage.getItem("hi-lang");
+      if (stored) {
+        if (stored !== "en" && langs.indexOf(stored) !== -1) location.replace("/" + stored + "/");
+        return;
+      }
+      var nav = (navigator.languages || [navigator.language || ""]).map(function (l) {
+        return String(l).toLowerCase().split("-")[0];
+      });
+      for (var i = 0; i < nav.length; i++) {
+        if (nav[i] === "en") return;
+        if (langs.indexOf(nav[i]) !== -1) {
+          location.replace("/" + nav[i] + "/");
+          return;
+        }
+      }
+    } catch (e) {}
+  })();
+  </script>
+  {%- endif %}
+</body>
+</html>

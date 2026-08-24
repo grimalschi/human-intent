@@ -1,0 +1,48 @@
+{
+  "code": "en",
+  "name": "English",
+  "dir": "ltr",
+  "metaTitle": "HUMAN-INTENT.md — the file that keeps AI coding under human control",
+  "metaDescription": "HUMAN-INTENT.md is a single file, written only by a human, that acts as law for AI agents: the project's architecture, development rules, and product decisions.",
+  "tagline": "One file that keeps AI-driven development under human control.",
+  "problemTitle": "The problem",
+  "problem": [
+    "Let's be honest: we no longer want to read code. We don't want to supervise agents and verify everything they do, or stay on top of every technical detail of a project.",
+    "But if nobody controls the agents, they will turn any project into unmaintainable chaos that neither a human nor an agent can untangle. It is only a matter of time."
+  ],
+  "ideaTitle": "The idea",
+  "idea": [
+    "HUMAN-INTENT.md is a single file in the root of your repository. It holds your intent: the architecture of the project, the rules of development, and the product decisions.",
+    "It is not documentation of the code. It is the law the code must follow."
+  ],
+  "rulesTitle": "Three rules",
+  "rules": [
+    {
+      "title": "Written by you — and only you",
+      "body": "Agents never edit this file. Every line in it is a decision made by a human."
+    },
+    {
+      "title": "Its instructions are law for the agent",
+      "body": "What HUMAN-INTENT.md says overrides everything else. If the code contradicts the file, the code is wrong."
+    },
+    {
+      "title": "It defines architecture, rules, and product",
+      "body": "Intent, not recipes. The agent already knows every pattern and architecture; your job is to fix what must be true — and why."
+    }
+  ],
+  "whyTitle": "Why it works",
+  "why": [
+    "A spec is not for the first run. Any agent can build a first version from a single prompt. The spec exists to carry context through every session that follows — so that the hundredth session is guided by the same principles as the first.",
+    "HUMAN-INTENT.md lets you direct development without reading the code, and stay certain that the principles you put into the project are never eroded."
+  ],
+  "howTitle": "How to start",
+  "how": [
+    "Create HUMAN-INTENT.md in the root of your repository.",
+    "Write down the decisions you have already made: architecture, development rules, product.",
+    "Tell your agent to read the file and treat it as law — reference it from AGENTS.md or CLAUDE.md.",
+    "Every time you make a new decision, add it to the file. Never let an agent write there.",
+    "Review this file, not the code."
+  ],
+  "langLabel": "Language",
+  "footerNote": "MIT License"
+}

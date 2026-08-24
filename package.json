@@ -1,0 +1,14 @@
+{
+  "name": "human-intent",
+  "version": "1.0.0",
+  "description": "human-intent.md — the site for the HUMAN-INTENT.md pattern",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
