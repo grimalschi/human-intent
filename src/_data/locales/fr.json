@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — le fichier qui garde le développement par IA sous contrôle humain",
   "metaDescription": "HUMAN-INTENT.md est un fichier unique, écrit uniquement par un humain, qui fait loi pour les agents IA : l'architecture du projet, les règles de développement et les décisions produit.",
-  "tagline": "Un fichier qui garde le développement par IA sous contrôle humain.",
+  "tagline": "Un fichier. Écrit par un humain. Loi pour les agents.",
   "problemTitle": "Le problème",
   "problem": [
-    "Soyons honnêtes : nous ne voulons plus lire le code. Nous ne voulons pas surveiller les agents et vérifier tout ce qu'ils font, ni suivre chaque détail technique du projet.",
-    "Mais si personne ne contrôle les agents, ils transformeront n'importe quel projet en un chaos immaintenable que ni un humain ni un agent ne pourra démêler. Ce n'est qu'une question de temps."
+    "Nous ne voulons plus lire le code. Ni surveiller les agents, ni suivre chaque détail.",
+    "Mais sans contrôle, les agents transforment tout projet en chaos. Ce n'est qu'une question de temps."
   ],
   "ideaTitle": "L'idée",
   "idea": [
-    "HUMAN-INTENT.md est un fichier unique à la racine de votre dépôt. Il porte votre intention : l'architecture du projet, les règles de développement et les décisions produit.",
-    "Ce n'est pas la documentation du code. C'est la loi à laquelle le code doit obéir."
+    "HUMAN-INTENT.md est un fichier à la racine de votre dépôt. Il porte votre intention : architecture, règles, produit.",
+    "Ce n'est pas de la documentation. C'est la loi du code."
   ],
   "rulesTitle": "Trois règles",
   "rules": [
     {
-      "title": "Écrit par vous — et vous seul",
-      "body": "Les agents ne modifient jamais ce fichier. Chaque ligne est une décision prise par un humain."
+      "title": "Vous seul l'écrivez",
+      "body": "Les agents ne touchent pas à ce fichier. Chaque ligne est une décision humaine."
     },
     {
-      "title": "Ses instructions font loi pour l'agent",
-      "body": "Ce que dit HUMAN-INTENT.md prime sur tout le reste. Si le code contredit le fichier, c'est le code qui a tort."
+      "title": "Pour l'agent, c'est la loi",
+      "body": "Le fichier prime sur tout. Si le code le contredit, c'est le code qui a tort."
     },
     {
-      "title": "Il définit l'architecture, les règles et le produit",
-      "body": "L'intention, pas les recettes. L'agent connaît déjà tous les patterns et architectures ; votre rôle est de fixer ce qui doit être vrai — et pourquoi."
+      "title": "L'intention, pas les recettes",
+      "body": "L'agent connaît tous les patterns. Vous fixez ce qui doit être vrai — et pourquoi."
     }
   ],
   "whyTitle": "Pourquoi ça marche",
   "why": [
-    "Chaque nouvelle session de l'agent part d'une page blanche : il ne se souvient pas de ce que vous avez décidé avant. Le fichier lui rend ce contexte — ainsi, même cent sessions plus tard, le projet suit les mêmes principes qu'au premier jour.",
-    "HUMAN-INTENT.md vous permet de diriger le développement sans lire le code, avec la certitude que les principes que vous avez posés dans le projet ne seront jamais érodés."
+    "Une nouvelle session de l'agent ne se souvient de rien. Le fichier lui rend le contexte — et la centième session suit les principes de la première.",
+    "Vous dirigez le développement sans lire le code. Et les principes du projet ne s'érodent jamais."
   ],
   "howTitle": "Comment commencer",
   "how": [
-    "Créez HUMAN-INTENT.md à la racine de votre dépôt.",
-    "Notez les décisions déjà prises : architecture, règles de développement, produit.",
-    "Dites à votre agent de lire ce fichier et de le traiter comme une loi — référencez-le depuis AGENTS.md ou CLAUDE.md.",
-    "À chaque nouvelle décision, ajoutez-la au fichier. Ne laissez jamais un agent y écrire.",
-    "Relisez ce fichier, pas le code."
+    "Créez HUMAN-INTENT.md à la racine du dépôt.",
+    "Notez les décisions prises : architecture, règles, produit.",
+    "Dites à votre agent que c'est la loi — référencez-le depuis AGENTS.md ou CLAUDE.md.",
+    "Nouvelle décision — nouvelle ligne dans le fichier.",
+    "Relisez le fichier, pas le code."
   ],
   "langLabel": "Langue",
   "footerNote": "Licence MIT"

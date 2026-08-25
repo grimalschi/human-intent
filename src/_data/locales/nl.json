@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — het bestand dat AI-ontwikkeling onder menselijke controle houdt",
   "metaDescription": "HUMAN-INTENT.md is één bestand, alleen door een mens geschreven, dat wet is voor AI-agents: de architectuur van het project, de ontwikkelregels en de productbeslissingen.",
-  "tagline": "Eén bestand dat AI-gedreven ontwikkeling onder menselijke controle houdt.",
+  "tagline": "Eén bestand. Geschreven door een mens. Wet voor agents.",
   "problemTitle": "Het probleem",
   "problem": [
-    "Laten we eerlijk zijn: we willen geen code meer lezen. We willen geen agents controleren en alles nakijken wat ze doen, en niet elk technisch detail van het project bijhouden.",
-    "Maar als niemand de agents in toom houdt, veranderen ze elk project in een onhoudbare chaos die mens noch agent nog kan ontwarren. Het is slechts een kwestie van tijd."
+    "We willen geen code meer lezen. Geen agents controleren, geen details bijhouden.",
+    "Maar zonder controle veranderen agents elk project in chaos. Het is een kwestie van tijd."
   ],
   "ideaTitle": "Het idee",
   "idea": [
-    "HUMAN-INTENT.md is één bestand in de root van je repository. Het bevat jouw intentie: de architectuur van het project, de ontwikkelregels en de productbeslissingen.",
-    "Het is geen documentatie van de code. Het is de wet waaraan de code moet gehoorzamen."
+    "HUMAN-INTENT.md is één bestand in de root van je repository. Daarin staat jouw intentie: architectuur, regels, product.",
+    "Het is geen documentatie. Het is wet voor de code."
   ],
   "rulesTitle": "Drie regels",
   "rules": [
     {
-      "title": "Geschreven door jou — en alleen door jou",
-      "body": "Agents bewerken dit bestand nooit. Elke regel erin is een beslissing van een mens."
+      "title": "Alleen jij schrijft het",
+      "body": "Agents komen niet aan dit bestand. Elke regel is een menselijke beslissing."
     },
     {
-      "title": "Zijn instructies zijn wet voor de agent",
-      "body": "Wat in HUMAN-INTENT.md staat, gaat boven al het andere. Als de code het bestand tegenspreekt, is de code fout."
+      "title": "Voor de agent is het wet",
+      "body": "Het bestand gaat boven alles. Spreekt de code het tegen, dan is de code fout."
     },
     {
-      "title": "Het bepaalt architectuur, regels en product",
-      "body": "Intentie, geen recepten. De agent kent alle patronen en architecturen al; jouw taak is vastleggen wat waar moet zijn — en waarom."
+      "title": "Intentie, geen recepten",
+      "body": "De agent kent alle patronen. Jij legt vast wat waar moet zijn — en waarom."
     }
   ],
   "whyTitle": "Waarom het werkt",
   "why": [
-    "Elke nieuwe sessie van de agent begint met een schone lei: de agent weet niet meer wat je eerder hebt besloten. Het bestand geeft die context terug — zo volgt het project ook honderd sessies later nog dezelfde principes als op dag één.",
-    "Met HUMAN-INTENT.md stuur je de ontwikkeling zonder de code te lezen, in de zekerheid dat de principes die je in het project hebt gelegd nooit vervagen."
+    "Een nieuwe agent-sessie herinnert zich niets. Het bestand geeft de context terug — en de honderdste sessie volgt de principes van de eerste.",
+    "Je stuurt de ontwikkeling zonder code te lezen. En de principes van het project vervagen nooit."
   ],
   "howTitle": "Hoe te beginnen",
   "how": [
     "Maak HUMAN-INTENT.md aan in de root van je repository.",
-    "Schrijf de beslissingen op die je al hebt genomen: architectuur, ontwikkelregels, product.",
-    "Zeg je agent het bestand te lezen en als wet te behandelen — verwijs ernaar vanuit AGENTS.md of CLAUDE.md.",
-    "Voeg elke nieuwe beslissing toe aan het bestand. Laat een agent er nooit in schrijven.",
-    "Review dit bestand, niet de code."
+    "Schrijf de genomen beslissingen op: architectuur, regels, product.",
+    "Zeg je agent: dit bestand is wet — verwijs ernaar vanuit AGENTS.md of CLAUDE.md.",
+    "Nieuwe beslissing — nieuwe regel in het bestand.",
+    "Review het bestand, niet de code."
   ],
   "langLabel": "Taal",
   "footerNote": "MIT-licentie"

@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — berkas yang menjaga pengembangan dengan AI tetap dalam kendali manusia",
   "metaDescription": "HUMAN-INTENT.md adalah satu berkas yang hanya ditulis oleh manusia dan menjadi hukum bagi agen AI: arsitektur proyek, aturan pengembangan, dan keputusan produk.",
-  "tagline": "Satu berkas yang menjaga pengembangan berbasis AI tetap dalam kendali manusia.",
+  "tagline": "Satu berkas. Ditulis manusia. Hukum bagi agen.",
   "problemTitle": "Masalahnya",
   "problem": [
-    "Jujur saja: kita tidak mau lagi membaca kode. Kita tidak mau mengawasi agen dan memeriksa semua yang mereka lakukan, atau mengikuti setiap detail teknis proyek.",
-    "Namun jika tidak ada yang mengendalikan para agen, mereka akan mengubah proyek apa pun menjadi kekacauan yang mustahil dipelihara — yang tak bisa diurai baik oleh manusia maupun agen. Hanya soal waktu."
+    "Kita tidak mau lagi membaca kode. Tidak mau mengawasi agen atau mengikuti setiap detail.",
+    "Tapi tanpa kendali, agen mengubah proyek apa pun menjadi kekacauan. Hanya soal waktu."
   ],
   "ideaTitle": "Idenya",
   "idea": [
-    "HUMAN-INTENT.md adalah satu berkas di akar repositori Anda. Ia memuat niat Anda: arsitektur proyek, aturan pengembangan, dan keputusan produk.",
-    "Ini bukan dokumentasi kode. Ini hukum yang harus dipatuhi oleh kode."
+    "HUMAN-INTENT.md adalah satu berkas di akar repositori. Isinya niat Anda: arsitektur, aturan, produk.",
+    "Ini bukan dokumentasi. Ini hukum bagi kode."
   ],
   "rulesTitle": "Tiga aturan",
   "rules": [
     {
-      "title": "Ditulis oleh Anda — dan hanya Anda",
-      "body": "Agen tidak pernah menyunting berkas ini. Setiap barisnya adalah keputusan yang diambil manusia."
+      "title": "Hanya Anda yang menulisnya",
+      "body": "Agen tidak menyentuh berkas ini. Setiap baris adalah keputusan manusia."
     },
     {
-      "title": "Instruksinya adalah hukum bagi agen",
-      "body": "Apa yang tertulis di HUMAN-INTENT.md mengalahkan segalanya. Jika kode bertentangan dengan berkas ini, kodelah yang salah."
+      "title": "Bagi agen, ini hukum",
+      "body": "Berkas ini di atas segalanya. Jika kode bertentangan, kodelah yang salah."
     },
     {
-      "title": "Ia menetapkan arsitektur, aturan, dan produk",
-      "body": "Niat, bukan resep. Agen sudah tahu semua pola dan arsitektur; tugas Anda menetapkan apa yang harus berlaku — dan mengapa."
+      "title": "Niat, bukan resep",
+      "body": "Agen tahu semua pola. Anda menetapkan apa yang harus berlaku — dan mengapa."
     }
   ],
   "whyTitle": "Mengapa ini berhasil",
   "why": [
-    "Setiap sesi baru agen dimulai dari nol: agen tidak ingat apa yang sudah Anda putuskan sebelumnya. Berkas ini mengembalikan konteks itu — sehingga bahkan setelah seratus sesi, proyek tetap mengikuti prinsip yang sama seperti hari pertama.",
-    "HUMAN-INTENT.md memungkinkan Anda mengarahkan pengembangan tanpa membaca kode, dengan keyakinan bahwa prinsip yang Anda tanamkan dalam proyek tidak akan pernah terkikis."
+    "Sesi baru agen tidak ingat apa-apa. Berkas ini mengembalikan konteksnya — dan sesi keseratus mengikuti prinsip sesi pertama.",
+    "Anda mengarahkan pengembangan tanpa membaca kode. Dan prinsip proyek tak pernah terkikis."
   ],
   "howTitle": "Cara memulai",
   "how": [
-    "Buat HUMAN-INTENT.md di akar repositori Anda.",
-    "Tuliskan keputusan yang sudah Anda ambil: arsitektur, aturan pengembangan, produk.",
-    "Minta agen Anda membaca berkas ini dan memperlakukannya sebagai hukum — rujuk dari AGENTS.md atau CLAUDE.md.",
-    "Setiap kali mengambil keputusan baru, tambahkan ke berkas. Jangan pernah biarkan agen menulis di dalamnya.",
-    "Tinjau berkas ini, bukan kodenya."
+    "Buat HUMAN-INTENT.md di akar repositori.",
+    "Tuliskan keputusan yang sudah diambil: arsitektur, aturan, produk.",
+    "Beri tahu agen: berkas ini hukum — rujuk dari AGENTS.md atau CLAUDE.md.",
+    "Keputusan baru — baris baru di berkas.",
+    "Tinjau berkasnya, bukan kodenya."
   ],
   "langLabel": "Bahasa",
   "footerNote": "Lisensi MIT"

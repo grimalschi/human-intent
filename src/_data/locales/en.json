@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — the file that keeps AI coding under human control",
   "metaDescription": "HUMAN-INTENT.md is a single file, written only by a human, that acts as law for AI agents: the project's architecture, development rules, and product decisions.",
-  "tagline": "One file that keeps AI-driven development under human control.",
+  "tagline": "One file. Written by a human. Law for agents.",
   "problemTitle": "The problem",
   "problem": [
-    "Let's be honest: we no longer want to read code. We don't want to supervise agents and verify everything they do, or stay on top of every technical detail of a project.",
-    "But if nobody controls the agents, they will turn any project into unmaintainable chaos that neither a human nor an agent can untangle. It is only a matter of time."
+    "We don't want to read code anymore. We don't want to watch over agents or track every detail.",
+    "But without control, agents turn any project into chaos. It's only a matter of time."
   ],
   "ideaTitle": "The idea",
   "idea": [
-    "HUMAN-INTENT.md is a single file in the root of your repository. It holds your intent: the architecture of the project, the rules of development, and the product decisions.",
-    "It is not documentation of the code. It is the law the code must follow."
+    "HUMAN-INTENT.md is one file in the root of your repository. It holds your intent: architecture, rules, product.",
+    "It's not documentation. It's law for the code."
   ],
   "rulesTitle": "Three rules",
   "rules": [
     {
-      "title": "Written by you — and only you",
-      "body": "Agents never edit this file. Every line in it is a decision made by a human."
+      "title": "Only you write it",
+      "body": "Agents don't touch this file. Every line is a human decision."
     },
     {
-      "title": "Its instructions are law for the agent",
-      "body": "What HUMAN-INTENT.md says overrides everything else. If the code contradicts the file, the code is wrong."
+      "title": "For the agent, it's law",
+      "body": "The file outranks everything. If the code contradicts it, the code is wrong."
     },
     {
-      "title": "It defines architecture, rules, and product",
-      "body": "Intent, not recipes. The agent already knows every pattern and architecture; your job is to fix what must be true — and why."
+      "title": "Intent, not recipes",
+      "body": "The agent knows every pattern. You state what must be true — and why."
     }
   ],
   "whyTitle": "Why it works",
   "why": [
-    "Every new agent session starts from a blank slate: the agent doesn't remember what you decided before. The file gives that context back — so even a hundred sessions later, the project still follows the same principles as on day one.",
-    "HUMAN-INTENT.md lets you direct development without reading the code, and stay certain that the principles you put into the project are never eroded."
+    "A new agent session remembers nothing. The file gives the context back — so the hundredth session follows the same principles as the first.",
+    "You steer development without reading code. And the project's principles never erode."
   ],
   "howTitle": "How to start",
   "how": [
     "Create HUMAN-INTENT.md in the root of your repository.",
-    "Write down the decisions you have already made: architecture, development rules, product.",
-    "Tell your agent to read the file and treat it as law — reference it from AGENTS.md or CLAUDE.md.",
-    "Every time you make a new decision, add it to the file. Never let an agent write there.",
-    "Review this file, not the code."
+    "Write down the decisions you've made: architecture, rules, product.",
+    "Tell your agent it's law — point to it from AGENTS.md or CLAUDE.md.",
+    "New decision — new line in the file.",
+    "Review the file, not the code."
   ],
   "langLabel": "Language",
   "footerNote": "MIT License"

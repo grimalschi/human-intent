@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — die Datei, die KI-Entwicklung unter menschlicher Kontrolle hält",
   "metaDescription": "HUMAN-INTENT.md ist eine einzelne Datei, die nur ein Mensch schreibt und die für KI-Agenten Gesetz ist: die Architektur des Projekts, die Entwicklungsregeln und die Produktentscheidungen.",
-  "tagline": "Eine Datei, die KI-getriebene Entwicklung unter menschlicher Kontrolle hält.",
+  "tagline": "Eine Datei. Vom Menschen geschrieben. Gesetz für Agenten.",
   "problemTitle": "Das Problem",
   "problem": [
-    "Seien wir ehrlich: Wir wollen keinen Code mehr lesen. Wir wollen Agenten nicht beaufsichtigen und alles überprüfen, was sie tun, und nicht jedes technische Detail des Projekts im Blick behalten.",
-    "Aber wenn niemand die Agenten kontrolliert, verwandeln sie jedes Projekt in ein unwartbares Chaos, das weder Mensch noch Agent noch entwirren kann. Es ist nur eine Frage der Zeit."
+    "Wir wollen keinen Code mehr lesen. Keine Agenten beaufsichtigen, kein Detail mehr verfolgen.",
+    "Aber ohne Kontrolle verwandeln Agenten jedes Projekt in Chaos. Es ist nur eine Frage der Zeit."
   ],
   "ideaTitle": "Die Idee",
   "idea": [
-    "HUMAN-INTENT.md ist eine einzelne Datei im Stammverzeichnis deines Repositories. Sie enthält deine Absicht: die Architektur des Projekts, die Entwicklungsregeln und die Produktentscheidungen.",
-    "Sie ist keine Dokumentation des Codes. Sie ist das Gesetz, dem der Code gehorchen muss."
+    "HUMAN-INTENT.md ist eine Datei im Root deines Repositories. Darin steht deine Absicht: Architektur, Regeln, Produkt.",
+    "Sie ist keine Dokumentation. Sie ist Gesetz für den Code."
   ],
   "rulesTitle": "Drei Regeln",
   "rules": [
     {
-      "title": "Von dir geschrieben — und nur von dir",
-      "body": "Agenten bearbeiten diese Datei niemals. Jede Zeile darin ist eine Entscheidung, die ein Mensch getroffen hat."
+      "title": "Nur du schreibst sie",
+      "body": "Agenten fassen diese Datei nie an. Jede Zeile ist eine menschliche Entscheidung."
     },
     {
-      "title": "Ihre Anweisungen sind Gesetz für den Agenten",
-      "body": "Was in HUMAN-INTENT.md steht, geht allem anderen vor. Widerspricht der Code der Datei, liegt der Fehler im Code."
+      "title": "Für den Agenten ist sie Gesetz",
+      "body": "Die Datei steht über allem. Widerspricht ihr der Code, ist der Code falsch."
     },
     {
-      "title": "Sie definiert Architektur, Regeln und Produkt",
-      "body": "Absicht, keine Rezepte. Der Agent kennt bereits alle Patterns und Architekturen; deine Aufgabe ist festzulegen, was gelten muss — und warum."
+      "title": "Absicht, keine Rezepte",
+      "body": "Der Agent kennt alle Patterns. Du legst fest, was gelten muss — und warum."
     }
   ],
   "whyTitle": "Warum es funktioniert",
   "why": [
-    "Jede neue Session des Agenten beginnt bei null: Er erinnert sich nicht daran, was du zuvor entschieden hast. Die Datei gibt ihm diesen Kontext zurück — so folgt das Projekt auch hundert Sessions später noch denselben Prinzipien wie am ersten Tag.",
-    "Mit HUMAN-INTENT.md lenkst du die Entwicklung, ohne den Code zu lesen — in der Gewissheit, dass die Prinzipien, die du in das Projekt gelegt hast, niemals verwässert werden."
+    "Eine neue Agenten-Session erinnert sich an nichts. Die Datei gibt ihr den Kontext zurück — und die hundertste Session folgt denselben Prinzipien wie die erste.",
+    "Du lenkst die Entwicklung, ohne Code zu lesen. Und die Prinzipien des Projekts verwässern nie."
   ],
   "howTitle": "So fängst du an",
   "how": [
-    "Lege HUMAN-INTENT.md im Stammverzeichnis deines Repositories an.",
-    "Schreibe die Entscheidungen auf, die du bereits getroffen hast: Architektur, Entwicklungsregeln, Produkt.",
-    "Weise deinen Agenten an, die Datei zu lesen und als Gesetz zu behandeln — verweise aus AGENTS.md oder CLAUDE.md darauf.",
-    "Trage jede neue Entscheidung in die Datei ein. Lass niemals einen Agenten hineinschreiben.",
-    "Reviewe diese Datei, nicht den Code."
+    "Lege HUMAN-INTENT.md im Root deines Repositories an.",
+    "Schreibe die getroffenen Entscheidungen auf: Architektur, Regeln, Produkt.",
+    "Sag deinem Agenten: Diese Datei ist Gesetz — verweise aus AGENTS.md oder CLAUDE.md darauf.",
+    "Neue Entscheidung — neue Zeile in der Datei.",
+    "Reviewe die Datei, nicht den Code."
   ],
   "langLabel": "Sprache",
   "footerNote": "MIT-Lizenz"

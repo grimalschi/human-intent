@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — il file che mantiene lo sviluppo con l'IA sotto controllo umano",
   "metaDescription": "HUMAN-INTENT.md è un unico file, scritto solo da un umano, che vale come legge per gli agenti IA: l'architettura del progetto, le regole di sviluppo e le decisioni di prodotto.",
-  "tagline": "Un file che mantiene lo sviluppo guidato dall'IA sotto controllo umano.",
+  "tagline": "Un file. Scritto da un umano. Legge per gli agenti.",
   "problemTitle": "Il problema",
   "problem": [
-    "Siamo onesti: non vogliamo più leggere il codice. Non vogliamo sorvegliare gli agenti e verificare tutto ciò che fanno, né stare dietro a ogni dettaglio tecnico del progetto.",
-    "Ma se nessuno controlla gli agenti, trasformeranno qualsiasi progetto in un caos immantenibile che né un umano né un agente riuscirà a districare. È solo questione di tempo."
+    "Non vogliamo più leggere codice. Né sorvegliare gli agenti, né seguire ogni dettaglio.",
+    "Ma senza controllo, gli agenti trasformano qualsiasi progetto in caos. È solo questione di tempo."
   ],
   "ideaTitle": "L'idea",
   "idea": [
-    "HUMAN-INTENT.md è un unico file nella radice del tuo repository. Contiene la tua intenzione: l'architettura del progetto, le regole di sviluppo e le decisioni di prodotto.",
-    "Non è la documentazione del codice. È la legge a cui il codice deve obbedire."
+    "HUMAN-INTENT.md è un file nella radice del repository. Contiene la tua intenzione: architettura, regole, prodotto.",
+    "Non è documentazione. È legge per il codice."
   ],
   "rulesTitle": "Tre regole",
   "rules": [
     {
-      "title": "Lo scrivi tu — e solo tu",
-      "body": "Gli agenti non modificano mai questo file. Ogni riga è una decisione presa da un umano."
+      "title": "Lo scrivi solo tu",
+      "body": "Gli agenti non toccano questo file. Ogni riga è una decisione umana."
     },
     {
-      "title": "Le sue istruzioni sono legge per l'agente",
-      "body": "Ciò che dice HUMAN-INTENT.md prevale su tutto il resto. Se il codice contraddice il file, è il codice a sbagliare."
+      "title": "Per l'agente è legge",
+      "body": "Il file viene prima di tutto. Se il codice lo contraddice, sbaglia il codice."
     },
     {
-      "title": "Definisce architettura, regole e prodotto",
-      "body": "Intenzione, non ricette. L'agente conosce già tutti i pattern e le architetture; il tuo compito è fissare cosa deve valere — e perché."
+      "title": "Intenzione, non ricette",
+      "body": "L'agente conosce tutti i pattern. Tu fissi cosa deve valere — e perché."
     }
   ],
   "whyTitle": "Perché funziona",
   "why": [
-    "Ogni nuova sessione dell'agente parte da zero: l'agente non ricorda cosa hai deciso prima. Il file gli restituisce quel contesto — così, anche dopo cento sessioni, il progetto segue gli stessi principi del primo giorno.",
-    "HUMAN-INTENT.md ti permette di dirigere lo sviluppo senza leggere il codice, con la certezza che i principi che hai messo nel progetto non verranno mai erosi."
+    "Una nuova sessione dell'agente non ricorda nulla. Il file le restituisce il contesto — e la centesima sessione segue i principi della prima.",
+    "Dirigi lo sviluppo senza leggere il codice. E i principi del progetto non si erodono."
   ],
   "howTitle": "Come iniziare",
   "how": [
-    "Crea HUMAN-INTENT.md nella radice del tuo repository.",
-    "Annota le decisioni che hai già preso: architettura, regole di sviluppo, prodotto.",
-    "Di' al tuo agente di leggere il file e trattarlo come legge — richiamalo da AGENTS.md o CLAUDE.md.",
-    "Ogni volta che prendi una nuova decisione, aggiungila al file. Non lasciare mai che un agente ci scriva.",
-    "Fai la review di questo file, non del codice."
+    "Crea HUMAN-INTENT.md nella radice del repository.",
+    "Annota le decisioni prese: architettura, regole, prodotto.",
+    "Di' al tuo agente che è legge — richiamalo da AGENTS.md o CLAUDE.md.",
+    "Nuova decisione — nuova riga nel file.",
+    "Fai la review del file, non del codice."
   ],
   "langLabel": "Lingua",
   "footerNote": "Licenza MIT"
