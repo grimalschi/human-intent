@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — tệp giữ việc lập trình bằng AI trong tầm kiểm soát của con người",
   "metaDescription": "HUMAN-INTENT.md là một tệp duy nhất, chỉ do con người viết, và là luật đối với các agent AI: kiến trúc dự án, quy tắc phát triển và các quyết định sản phẩm.",
-  "tagline": "Một tệp. Do con người viết. Là luật với agent.",
+  "tagline": "Một tệp duy nhất giữ việc phát triển bằng AI trong tầm kiểm soát của con người.",
   "problemTitle": "Vấn đề",
   "problem": [
-    "Chúng ta không còn muốn đọc code. Không muốn giám sát agent, cũng không muốn theo dõi từng chi tiết.",
-    "Nhưng không có kiểm soát, agent sẽ biến mọi dự án thành hỗn loạn. Chỉ là vấn đề thời gian."
+    "Hãy thành thật: chúng ta không còn muốn đọc code nữa. Không muốn kiểm tra mọi thứ agent làm, cũng không muốn nhớ từng chi tiết kỹ thuật của dự án.",
+    "Nhưng nếu không ai kiểm soát các agent, chúng sẽ biến bất kỳ dự án nào thành một mớ hỗn loạn không thể bảo trì — mà cả con người lẫn agent đều không gỡ nổi. Chỉ là vấn đề thời gian."
   ],
   "ideaTitle": "Ý tưởng",
   "idea": [
-    "HUMAN-INTENT.md là một tệp ở gốc repository. Trong đó là ý định của bạn: kiến trúc, quy tắc, sản phẩm.",
-    "Nó không phải tài liệu. Nó là luật cho code."
+    "HUMAN-INTENT.md là một tệp nằm ở gốc repository của bạn. Nó chứa ý định của bạn: kiến trúc dự án, quy tắc phát triển và các quyết định sản phẩm.",
+    "Nó không phải là tài liệu của code. Nó là luật mà code phải tuân theo."
   ],
   "rulesTitle": "Ba quy tắc",
   "rules": [
     {
-      "title": "Chỉ bạn viết nó",
-      "body": "Agent không được chạm vào tệp này. Mỗi dòng là một quyết định của con người."
+      "title": "Do bạn viết — và chỉ mình bạn",
+      "body": "Agent không bao giờ được sửa tệp này. Mỗi dòng trong đó là một quyết định do con người đưa ra."
     },
     {
-      "title": "Với agent, đó là luật",
-      "body": "Tệp này đứng trên tất cả. Code mâu thuẫn với nó — code sai."
+      "title": "Chỉ dẫn trong đó là luật đối với agent",
+      "body": "Những gì HUMAN-INTENT.md nói được ưu tiên hơn tất cả. Nếu code mâu thuẫn với tệp, thì code sai."
     },
     {
-      "title": "Ý định, không phải công thức",
-      "body": "Agent biết mọi pattern. Bạn chốt điều gì phải đúng — và vì sao."
+      "title": "Nó xác định kiến trúc, quy tắc và sản phẩm",
+      "body": "Ý định, không phải công thức. Agent vốn đã biết mọi pattern; việc của bạn là chốt điều gì phải đúng — và vì sao."
     }
   ],
   "whyTitle": "Vì sao nó hiệu quả",
   "why": [
-    "Phiên mới của agent không nhớ gì cả. Tệp trả lại ngữ cảnh — và phiên thứ một trăm vẫn theo nguyên tắc của phiên đầu.",
-    "Bạn định hướng phát triển mà không cần đọc code. Và nguyên tắc của dự án không bị bào mòn."
+    "Không ai theo kịp agent: code sinh ra nhiều hơn mức bất kỳ ai muốn đọc. Kiểm soát từng dòng là vô vọng. Kiểm soát ý định thì có thể.",
+    "HUMAN-INTENT.md nâng việc kiểm soát lên một tầng cao hơn: bạn theo dõi một tệp chứa các quyết định của mình thay vì hàng nghìn dòng code. Chừng nào tệp còn là luật, dự án còn phát triển theo ý định của bạn — kể cả khi không ai đọc code."
   ],
   "howTitle": "Bắt đầu thế nào",
   "how": [
-    "Tạo HUMAN-INTENT.md ở gốc repository.",
-    "Ghi lại các quyết định đã có: kiến trúc, quy tắc, sản phẩm.",
-    "Nói với agent: tệp này là luật — tham chiếu từ AGENTS.md hoặc CLAUDE.md.",
-    "Quyết định mới — dòng mới trong tệp.",
-    "Review tệp này, không phải code."
+    "Tạo HUMAN-INTENT.md ở gốc repository của bạn.",
+    "Ghi lại những quyết định bạn đã đưa ra: kiến trúc, quy tắc phát triển, sản phẩm.",
+    "Yêu cầu agent đọc tệp này và coi nó là luật — tham chiếu nó từ AGENTS.md hoặc CLAUDE.md.",
+    "Mỗi khi có quyết định mới, hãy thêm vào tệp. Không bao giờ để agent viết vào đó.",
+    "Hãy review tệp này, thay vì review code."
   ],
   "langLabel": "Ngôn ngữ",
   "footerNote": "Giấy phép MIT"

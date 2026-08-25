@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — fișierul care ține dezvoltarea cu AI sub controlul omului",
   "metaDescription": "HUMAN-INTENT.md este un singur fișier, scris doar de un om, care este lege pentru agenții AI: arhitectura proiectului, regulile de dezvoltare și deciziile de produs.",
-  "tagline": "Un fișier. Scris de un om. Lege pentru agenți.",
+  "tagline": "Un singur fișier care ține dezvoltarea bazată pe AI sub controlul omului.",
   "problemTitle": "Problema",
   "problem": [
-    "Nu mai vrem să citim cod. Nici să supraveghem agenții, nici să urmărim fiecare detaliu.",
-    "Dar fără control, agenții transformă orice proiect în haos. E doar o chestiune de timp."
+    "Să fim sinceri: nu mai vrem să citim cod. Nu vrem să verificăm tot ce fac agenții, nici să ținem minte fiecare detaliu tehnic al proiectului.",
+    "Dar dacă nimeni nu controlează agenții, ei vor transforma orice proiect într-un haos imposibil de întreținut, pe care nici omul, nici agentul nu-l va mai putea descâlci. E doar o chestiune de timp."
   ],
   "ideaTitle": "Ideea",
   "idea": [
-    "HUMAN-INTENT.md este un fișier în rădăcina repository-ului. În el e intenția ta: arhitectură, reguli, produs.",
-    "Nu e documentație. E lege pentru cod."
+    "HUMAN-INTENT.md este un fișier în rădăcina repository-ului tău. El poartă intenția ta: arhitectura proiectului, regulile de dezvoltare și deciziile de produs.",
+    "Nu este documentația codului. Este legea căreia codul trebuie să i se supună."
   ],
   "rulesTitle": "Trei reguli",
   "rules": [
     {
-      "title": "Doar tu îl scrii",
-      "body": "Agenții nu ating acest fișier. Fiecare rând e o decizie umană."
+      "title": "Scris de tine — și doar de tine",
+      "body": "Agenții nu editează niciodată acest fișier. Fiecare rând din el este o decizie luată de un om."
     },
     {
-      "title": "Pentru agent e lege",
-      "body": "Fișierul e mai presus de orice. Dacă codul îl contrazice, codul greșește."
+      "title": "Instrucțiunile lui sunt lege pentru agent",
+      "body": "Ce spune HUMAN-INTENT.md primează asupra oricărui alt lucru. Dacă codul contrazice fișierul, codul greșește."
     },
     {
-      "title": "Intenție, nu rețete",
-      "body": "Agentul știe toate tiparele. Tu fixezi ce trebuie să fie adevărat — și de ce."
+      "title": "Definește arhitectura, regulile și produsul",
+      "body": "Intenție, nu rețete. Agentul cunoaște deja toate tiparele; treaba ta este să fixezi ce trebuie să fie adevărat — și de ce."
     }
   ],
   "whyTitle": "De ce funcționează",
   "why": [
-    "O sesiune nouă a agentului nu-și amintește nimic. Fișierul îi redă contextul — și a suta sesiune urmează principiile primei.",
-    "Direcționezi dezvoltarea fără să citești codul. Iar principiile proiectului nu se erodează."
+    "E imposibil să ții pasul cu agenții: se scrie mai mult cod decât e dispus cineva să citească. Să controlezi fiecare rând e fără speranță. Să controlezi intenția — nu.",
+    "HUMAN-INTENT.md ridică controlul cu un nivel: urmărești un singur fișier cu deciziile tale în loc de mii de rânduri de cod. Cât timp fișierul e lege, proiectul urmează intenția ta — chiar dacă nimeni nu citește codul."
   ],
   "howTitle": "Cum începi",
   "how": [
-    "Creează HUMAN-INTENT.md în rădăcina repository-ului.",
-    "Notează deciziile luate: arhitectură, reguli, produs.",
-    "Spune-i agentului: acest fișier e lege — fă referire la el din AGENTS.md sau CLAUDE.md.",
-    "Decizie nouă — rând nou în fișier.",
-    "Fă review fișierului, nu codului."
+    "Creează HUMAN-INTENT.md în rădăcina repository-ului tău.",
+    "Notează deciziile pe care le-ai luat deja: arhitectură, reguli de dezvoltare, produs.",
+    "Spune-i agentului să citească fișierul și să-l trateze ca lege — fă referire la el din AGENTS.md sau CLAUDE.md.",
+    "De fiecare dată când iei o decizie nouă, adaug-o în fișier. Nu lăsa niciodată un agent să scrie în el.",
+    "Fă review acestui fișier, nu codului."
   ],
   "langLabel": "Limbă",
   "footerNote": "Licența MIT"

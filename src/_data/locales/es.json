@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — el archivo que mantiene la programación con IA bajo control humano",
   "metaDescription": "HUMAN-INTENT.md es un único archivo, escrito solo por un humano, que actúa como ley para los agentes de IA: la arquitectura del proyecto, las reglas de desarrollo y las decisiones de producto.",
-  "tagline": "Un archivo. Escrito por un humano. Ley para los agentes.",
+  "tagline": "Un archivo que mantiene el desarrollo con IA bajo control humano.",
   "problemTitle": "El problema",
   "problem": [
-    "Ya no queremos leer código. No queremos vigilar a los agentes ni seguir cada detalle.",
-    "Pero sin control, los agentes convierten cualquier proyecto en caos. Es cuestión de tiempo."
+    "Seamos honestos: ya no queremos leer código. No queremos verificar todo lo que hacen los agentes ni tener en la cabeza cada detalle técnico del proyecto.",
+    "Pero si nadie controla a los agentes, convertirán cualquier proyecto en un caos inmantenible que ni un humano ni un agente podrán desenredar. Es solo cuestión de tiempo."
   ],
   "ideaTitle": "La idea",
   "idea": [
-    "HUMAN-INTENT.md es un archivo en la raíz de tu repositorio. Contiene tu intención: arquitectura, reglas, producto.",
-    "No es documentación. Es ley para el código."
+    "HUMAN-INTENT.md es un archivo en la raíz de tu repositorio. Contiene tu intención: la arquitectura del proyecto, las reglas de desarrollo y las decisiones de producto.",
+    "No es documentación del código. Es la ley que el código debe obedecer."
   ],
   "rulesTitle": "Tres reglas",
   "rules": [
     {
-      "title": "Solo tú lo escribes",
-      "body": "Los agentes no tocan este archivo. Cada línea es una decisión humana."
+      "title": "Lo escribes tú — y solo tú",
+      "body": "Los agentes nunca editan este archivo. Cada línea es una decisión tomada por un humano."
     },
     {
-      "title": "Para el agente es ley",
-      "body": "El archivo está por encima de todo. Si el código lo contradice, el código está mal."
+      "title": "Sus instrucciones son ley para el agente",
+      "body": "Lo que dice HUMAN-INTENT.md prevalece sobre todo lo demás. Si el código contradice el archivo, el código está equivocado."
     },
     {
-      "title": "Intención, no recetas",
-      "body": "El agente conoce todos los patrones. Tú fijas qué debe cumplirse — y por qué."
+      "title": "Define la arquitectura, las reglas y el producto",
+      "body": "Intención, no recetas. El agente ya conoce todos los patrones; tu trabajo es fijar qué debe cumplirse — y por qué."
     }
   ],
   "whyTitle": "Por qué funciona",
   "why": [
-    "Una nueva sesión del agente no recuerda nada. El archivo le devuelve el contexto — y la sesión cien sigue los mismos principios que la primera.",
-    "Diriges el desarrollo sin leer código. Y los principios del proyecto no se erosionan."
+    "Es imposible seguir el ritmo de los agentes: hay más código del que nadie está dispuesto a leer. Controlar cada línea es inútil. Controlar la intención, no.",
+    "HUMAN-INTENT.md sube el control un nivel: vigilas un archivo con tus decisiones en lugar de miles de líneas de código. Mientras el archivo sea ley, el proyecto sigue tu intención — incluso si nadie lee el código."
   ],
   "howTitle": "Cómo empezar",
   "how": [
     "Crea HUMAN-INTENT.md en la raíz de tu repositorio.",
-    "Anota las decisiones tomadas: arquitectura, reglas, producto.",
-    "Dile a tu agente que es ley — referéncialo desde AGENTS.md o CLAUDE.md.",
-    "Nueva decisión — nueva línea en el archivo.",
-    "Revisa el archivo, no el código."
+    "Anota las decisiones que ya has tomado: arquitectura, reglas de desarrollo, producto.",
+    "Dile a tu agente que lea el archivo y lo trate como ley — referéncialo desde AGENTS.md o CLAUDE.md.",
+    "Cada vez que tomes una nueva decisión, añádela al archivo. Nunca dejes que un agente escriba en él.",
+    "Revisa este archivo, no el código."
   ],
   "langLabel": "Idioma",
   "footerNote": "Licencia MIT"

@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — plik, który trzyma programowanie z AI pod kontrolą człowieka",
   "metaDescription": "HUMAN-INTENT.md to jeden plik, pisany wyłącznie przez człowieka, będący prawem dla agentów AI: architektura projektu, zasady rozwoju i decyzje produktowe.",
-  "tagline": "Jeden plik. Pisze go człowiek. Prawo dla agentów.",
+  "tagline": "Jeden plik, który trzyma rozwój oparty na AI pod kontrolą człowieka.",
   "problemTitle": "Problem",
   "problem": [
-    "Nie chcemy już czytać kodu. Ani pilnować agentów, ani śledzić każdego szczegółu.",
-    "Ale bez kontroli agenci zamienią każdy projekt w chaos. To tylko kwestia czasu."
+    "Bądźmy szczerzy: nie chcemy już czytać kodu. Nie chcemy sprawdzać wszystkiego, co robią agenci, ani trzymać w głowie każdego technicznego szczegółu projektu.",
+    "Ale jeśli nikt nie kontroluje agentów, zamienią każdy projekt w niemożliwy do utrzymania chaos, którego nie rozplącze ani człowiek, ani agent. To tylko kwestia czasu."
   ],
   "ideaTitle": "Idea",
   "idea": [
-    "HUMAN-INTENT.md to jeden plik w katalogu głównym repozytorium. W nim twój zamysł: architektura, zasady, produkt.",
-    "To nie dokumentacja. To prawo dla kodu."
+    "HUMAN-INTENT.md to jeden plik w katalogu głównym repozytorium. Zawiera twój zamysł: architekturę projektu, zasady rozwoju i decyzje produktowe.",
+    "To nie jest dokumentacja kodu. To prawo, któremu kod musi się podporządkować."
   ],
   "rulesTitle": "Trzy zasady",
   "rules": [
     {
-      "title": "Piszesz go tylko ty",
-      "body": "Agenci nie dotykają tego pliku. Każda linia to decyzja człowieka."
+      "title": "Piszesz go ty — i tylko ty",
+      "body": "Agenci nigdy nie edytują tego pliku. Każda linia w nim to decyzja podjęta przez człowieka."
     },
     {
-      "title": "Dla agenta to prawo",
-      "body": "Plik jest ponad wszystkim. Jeśli kod mu przeczy — myli się kod."
+      "title": "Jego instrukcje są prawem dla agenta",
+      "body": "To, co mówi HUMAN-INTENT.md, jest ważniejsze od wszystkiego innego. Jeśli kod przeczy plikowi — to kod się myli."
     },
     {
-      "title": "Zamysł, nie przepisy",
-      "body": "Agent zna wszystkie wzorce. Ty ustalasz, co ma obowiązywać — i dlaczego."
+      "title": "Określa architekturę, zasady i produkt",
+      "body": "Zamysł, nie przepisy. Agent i tak zna wszystkie wzorce; twoim zadaniem jest ustalić, co ma obowiązywać — i dlaczego."
     }
   ],
   "whyTitle": "Dlaczego to działa",
   "why": [
-    "Nowa sesja agenta niczego nie pamięta. Plik zwraca jej kontekst — i setna sesja trzyma się zasad pierwszej.",
-    "Kierujesz rozwojem bez czytania kodu. A zasady projektu się nie rozmywają."
+    "Za agentami nie da się nadążyć: kodu powstaje więcej, niż ktokolwiek chce przeczytać. Kontrolowanie każdej linii jest beznadziejne. Kontrolowanie zamysłu — realne.",
+    "HUMAN-INTENT.md przenosi kontrolę poziom wyżej: pilnujesz jednego pliku ze swoimi decyzjami zamiast tysięcy linii kodu. Dopóki plik jest prawem, projekt rozwija się według twojego zamysłu — nawet jeśli nikt nie czyta kodu."
   ],
   "howTitle": "Jak zacząć",
   "how": [
     "Utwórz HUMAN-INTENT.md w katalogu głównym repozytorium.",
-    "Zapisz podjęte decyzje: architektura, zasady, produkt.",
-    "Powiedz agentowi: ten plik to prawo — odwołaj się do niego w AGENTS.md lub CLAUDE.md.",
-    "Nowa decyzja — nowa linia w pliku.",
-    "Rób review pliku, nie kodu."
+    "Zapisz decyzje, które już podjąłeś: architektura, zasady rozwoju, produkt.",
+    "Powiedz agentowi, by czytał ten plik i traktował go jak prawo — odwołaj się do niego w AGENTS.md lub CLAUDE.md.",
+    "Każdą nową decyzję dopisuj do pliku. Nigdy nie pozwól agentowi w nim pisać.",
+    "Rób review tego pliku, nie kodu."
   ],
   "langLabel": "Język",
   "footerNote": "Licencja MIT"

@@ -4,44 +4,44 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — yapay zekâ ile kodlamayı insan kontrolünde tutan dosya",
   "metaDescription": "HUMAN-INTENT.md yalnızca insan tarafından yazılan tek bir dosyadır ve yapay zekâ ajanları için yasadır: projenin mimarisi, geliştirme kuralları ve ürün kararları.",
-  "tagline": "Tek bir dosya. İnsan yazar. Ajanlar için yasa.",
+  "tagline": "Yapay zekâ destekli geliştirmeyi insan kontrolünde tutan tek bir dosya.",
   "problemTitle": "Sorun",
   "problem": [
-    "Artık kod okumak istemiyoruz. Ajanları denetlemek de, her ayrıntıyı takip etmek de istemiyoruz.",
-    "Ama kontrol olmazsa ajanlar her projeyi kaosa çevirir. Yalnızca zaman meselesi."
+    "Dürüst olalım: Artık kod okumak istemiyoruz. Ajanların yaptığı her şeyi doğrulamak da, projenin her teknik ayrıntısını akılda tutmak da istemiyoruz.",
+    "Ama ajanları kimse kontrol etmezse, her projeyi ne insanın ne de ajanın içinden çıkabileceği, sürdürülemez bir kaosa çevirirler. Bu yalnızca zaman meselesidir."
   ],
   "ideaTitle": "Fikir",
   "idea": [
-    "HUMAN-INTENT.md, deponuzun kökündeki tek bir dosyadır. İçinde niyetiniz var: mimari, kurallar, ürün.",
-    "Dokümantasyon değildir. Kod için yasadır."
+    "HUMAN-INTENT.md, deponuzun kök dizinindeki tek bir dosyadır. İçinde sizin niyetiniz yer alır: projenin mimarisi, geliştirme kuralları ve ürün kararları.",
+    "Bu, kodun dokümantasyonu değildir. Kodun uymak zorunda olduğu yasadır."
   ],
   "rulesTitle": "Üç kural",
   "rules": [
     {
-      "title": "Onu yalnızca siz yazarsınız",
-      "body": "Ajanlar bu dosyaya dokunmaz. Her satır bir insan kararıdır."
+      "title": "Onu siz yazarsınız — yalnızca siz",
+      "body": "Ajanlar bu dosyayı asla düzenlemez. İçindeki her satır, bir insanın verdiği karardır."
     },
     {
-      "title": "Ajan için yasadır",
-      "body": "Dosya her şeyin üstündedir. Kod onunla çelişiyorsa, yanlış olan koddur."
+      "title": "Talimatları ajan için yasadır",
+      "body": "HUMAN-INTENT.md'de yazanlar her şeyin üzerindedir. Kod dosyayla çelişiyorsa, yanlış olan koddur."
     },
     {
-      "title": "Tarif değil, niyet",
-      "body": "Ajan bütün desenleri bilir. Siz neyin geçerli olacağını — ve nedenini — belirlersiniz."
+      "title": "Mimariyi, kuralları ve ürünü tanımlar",
+      "body": "Tarif değil, niyet. Ajan zaten tüm desenleri bilir; sizin işiniz neyin geçerli olması gerektiğini — ve nedenini — belirlemektir."
     }
   ],
   "whyTitle": "Neden işe yarıyor",
   "why": [
-    "Ajanın yeni oturumu hiçbir şey hatırlamaz. Dosya bağlamı geri verir — yüzüncü oturum da ilkinin ilkeleriyle ilerler.",
-    "Kod okumadan geliştirmeyi yönlendirirsiniz. Projenin ilkeleri asla aşınmaz."
+    "Ajanlara yetişmek imkânsız: kimsenin okumak istemeyeceği kadar çok kod üretiliyor. Her satırı kontrol etmek umutsuz; niyeti kontrol etmekse mümkün.",
+    "HUMAN-INTENT.md kontrolü bir seviye yukarı taşır: binlerce satır kod yerine kararlarınızı içeren tek bir dosyayı izlersiniz. Dosya yasa olduğu sürece proje sizin niyetinize göre gelişir — kodu kimse okumasa bile."
   ],
   "howTitle": "Nasıl başlanır",
   "how": [
-    "Deponuzun köküne HUMAN-INTENT.md oluşturun.",
-    "Verdiğiniz kararları yazın: mimari, kurallar, ürün.",
-    "Ajanınıza söyleyin: bu dosya yasadır — AGENTS.md veya CLAUDE.md içinden atıf yapın.",
-    "Yeni karar — dosyaya yeni satır.",
-    "Kodu değil, dosyayı gözden geçirin."
+    "Deponuzun kök dizininde HUMAN-INTENT.md oluşturun.",
+    "Zaten verdiğiniz kararları yazın: mimari, geliştirme kuralları, ürün.",
+    "Ajanınıza bu dosyayı okumasını ve yasa olarak görmesini söyleyin — AGENTS.md veya CLAUDE.md içinden ona atıfta bulunun.",
+    "Her yeni kararı dosyaya ekleyin. Bir ajanın oraya yazmasına asla izin vermeyin.",
+    "Kodu değil, bu dosyayı gözden geçirin."
   ],
   "langLabel": "Dil",
   "footerNote": "MIT Lisansı"
