@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — le fichier qui garde le développement par IA sous contrôle humain",
   "metaDescription": "HUMAN-INTENT.md est un fichier unique, écrit uniquement par un humain, qui fait loi pour les agents IA : l'architecture du projet, les règles de développement et les décisions produit.",
-  "tagline": "Un fichier qui garde le développement par IA sous contrôle humain.",
+  "tagline": "Un fichier qui aide l'humain à contrôler le développement par IA.",
   "problemTitle": "Le problème",
   "problem": [
     "Soyons honnêtes : nous ne voulons plus lire le code. Nous ne voulons pas vérifier tout ce que font les agents, ni garder en tête chaque détail technique du projet.",

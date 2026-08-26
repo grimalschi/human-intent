@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — plik, który trzyma programowanie z AI pod kontrolą człowieka",
   "metaDescription": "HUMAN-INTENT.md to jeden plik, pisany wyłącznie przez człowieka, będący prawem dla agentów AI: architektura projektu, zasady rozwoju i decyzje produktowe.",
-  "tagline": "Jeden plik, który trzyma rozwój oparty na AI pod kontrolą człowieka.",
+  "tagline": "Plik, który pomaga człowiekowi kontrolować rozwój z AI.",
   "problemTitle": "Problem",
   "problem": [
     "Bądźmy szczerzy: nie chcemy już czytać kodu. Nie chcemy sprawdzać wszystkiego, co robią agenci, ani trzymać w głowie każdego technicznego szczegółu projektu.",

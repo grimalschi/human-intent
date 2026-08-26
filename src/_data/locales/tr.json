@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — yapay zekâ ile kodlamayı insan kontrolünde tutan dosya",
   "metaDescription": "HUMAN-INTENT.md yalnızca insan tarafından yazılan tek bir dosyadır ve yapay zekâ ajanları için yasadır: projenin mimarisi, geliştirme kuralları ve ürün kararları.",
-  "tagline": "Yapay zekâ destekli geliştirmeyi insan kontrolünde tutan tek bir dosya.",
+  "tagline": "İnsanın yapay zekâ destekli geliştirmeyi kontrol etmesine yardımcı olan bir dosya.",
   "problemTitle": "Sorun",
   "problem": [
     "Dürüst olalım: Artık kod okumak istemiyoruz. Ajanların yaptığı her şeyi doğrulamak da, projenin her teknik ayrıntısını akılda tutmak da istemiyoruz.",

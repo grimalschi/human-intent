@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — die Datei, die KI-Entwicklung unter menschlicher Kontrolle hält",
   "metaDescription": "HUMAN-INTENT.md ist eine einzelne Datei, die nur ein Mensch schreibt und die für KI-Agenten Gesetz ist: die Architektur des Projekts, die Entwicklungsregeln und die Produktentscheidungen.",
-  "tagline": "Eine Datei, die KI-getriebene Entwicklung unter menschlicher Kontrolle hält.",
+  "tagline": "Eine Datei, die dem Menschen hilft, KI-getriebene Entwicklung zu kontrollieren.",
   "problemTitle": "Das Problem",
   "problem": [
     "Seien wir ehrlich: Wir wollen keinen Code mehr lesen. Wir wollen nicht alles überprüfen, was Agenten tun, und nicht jedes technische Detail des Projekts im Kopf behalten.",

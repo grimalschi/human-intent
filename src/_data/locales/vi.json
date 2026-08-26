@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — tệp giữ việc lập trình bằng AI trong tầm kiểm soát của con người",
   "metaDescription": "HUMAN-INTENT.md là một tệp duy nhất, chỉ do con người viết, và là luật đối với các agent AI: kiến trúc dự án, quy tắc phát triển và các quyết định sản phẩm.",
-  "tagline": "Một tệp duy nhất giữ việc phát triển bằng AI trong tầm kiểm soát của con người.",
+  "tagline": "Tệp giúp con người kiểm soát việc phát triển bằng AI.",
   "problemTitle": "Vấn đề",
   "problem": [
     "Hãy thành thật: chúng ta không còn muốn đọc code nữa. Không muốn kiểm tra mọi thứ agent làm, cũng không muốn nhớ từng chi tiết kỹ thuật của dự án.",

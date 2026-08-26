@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — 让 AI 编程始终处于人类掌控之下的文件",
   "metaDescription": "HUMAN-INTENT.md 是一个只由人类编写的文件，对 AI 智能体而言就是法律：项目架构、开发规则和产品决策。",
-  "tagline": "一个文件，让 AI 驱动的开发始终处于人类掌控之下。",
+  "tagline": "一个帮助人类掌控 AI 开发的文件。",
   "problemTitle": "问题",
   "problem": [
     "坦白说：我们已经不想再读代码了。不想核查智能体做的每一件事，也不想把项目的每个技术细节都记在脑子里。",

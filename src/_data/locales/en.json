@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — the file that keeps AI coding under human control",
   "metaDescription": "HUMAN-INTENT.md is a single file, written only by a human, that acts as law for AI agents: the project's architecture, development rules, and product decisions.",
-  "tagline": "One file that keeps AI-driven development under human control.",
+  "tagline": "A file that helps a human control AI-driven development.",
   "problemTitle": "The problem",
   "problem": [
     "Let's be honest: we no longer want to read code. We don't want to verify everything agents do, or keep every technical detail of the project in our heads.",

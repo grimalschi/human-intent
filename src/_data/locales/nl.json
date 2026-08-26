@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — het bestand dat AI-ontwikkeling onder menselijke controle houdt",
   "metaDescription": "HUMAN-INTENT.md is één bestand, alleen door een mens geschreven, dat wet is voor AI-agents: de architectuur van het project, de ontwikkelregels en de productbeslissingen.",
-  "tagline": "Eén bestand dat AI-gedreven ontwikkeling onder menselijke controle houdt.",
+  "tagline": "Een bestand dat de mens helpt AI-ontwikkeling onder controle te houden.",
   "problemTitle": "Het probleem",
   "problem": [
     "Laten we eerlijk zijn: we willen geen code meer lezen. We willen niet alles nakijken wat agents doen, en niet elk technisch detail van het project in ons hoofd houden.",

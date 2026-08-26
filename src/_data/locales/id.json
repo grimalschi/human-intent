@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — berkas yang menjaga pengembangan dengan AI tetap dalam kendali manusia",
   "metaDescription": "HUMAN-INTENT.md adalah satu berkas yang hanya ditulis oleh manusia dan menjadi hukum bagi agen AI: arsitektur proyek, aturan pengembangan, dan keputusan produk.",
-  "tagline": "Satu berkas yang menjaga pengembangan berbasis AI tetap dalam kendali manusia.",
+  "tagline": "Berkas yang membantu manusia mengendalikan pengembangan dengan AI.",
   "problemTitle": "Masalahnya",
   "problem": [
     "Jujur saja: kita tidak mau lagi membaca kode. Kita tidak mau memeriksa semua yang dilakukan agen, atau menyimpan setiap detail teknis proyek di kepala.",

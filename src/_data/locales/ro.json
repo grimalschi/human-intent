@@ -4,7 +4,7 @@
   "dir": "ltr",
   "metaTitle": "HUMAN-INTENT.md — fișierul care ține dezvoltarea cu AI sub controlul omului",
   "metaDescription": "HUMAN-INTENT.md este un singur fișier, scris doar de un om, care este lege pentru agenții AI: arhitectura proiectului, regulile de dezvoltare și deciziile de produs.",
-  "tagline": "Un singur fișier care ține dezvoltarea bazată pe AI sub controlul omului.",
+  "tagline": "Un fișier care ajută omul să controleze dezvoltarea cu AI.",
   "problemTitle": "Problema",
   "problem": [
     "Să fim sinceri: nu mai vrem să citim cod. Nu vrem să verificăm tot ce fac agenții, nici să ținem minte fiecare detaliu tehnic al proiectului.",
