@@ -24,7 +24,7 @@
 
 body {
   margin: 0 auto;
-  padding: 3rem 1.25rem 4rem;
+  padding: 1.25rem 1.25rem 4rem;
   max-width: 42rem;
   background: var(--bg);
   color: var(--fg);
@@ -107,7 +107,7 @@ footer {
   flex-wrap: wrap;
   gap: 0.35rem 0.9rem;
   font-size: 0.85rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .languages .current {
