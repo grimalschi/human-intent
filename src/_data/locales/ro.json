@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md este un fișier în rădăcina repository-ului tău. El poartă intenția ta: arhitectura proiectului, regulile de dezvoltare și deciziile de produs.",
     "Nu este documentația codului. Este legea căreia codul trebuie să i se supună."
   ],
-  "rulesTitle": "Trei reguli",
+  "rulesTitle": "Regulile",
   "rules": [
     {
       "title": "Scris de tine — și doar de tine",

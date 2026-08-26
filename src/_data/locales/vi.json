@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md là một tệp nằm ở gốc repository của bạn. Nó chứa ý định của bạn: kiến trúc dự án, quy tắc phát triển và các quyết định sản phẩm.",
     "Nó không phải là tài liệu của code. Nó là luật mà code phải tuân theo."
   ],
-  "rulesTitle": "Ba quy tắc",
+  "rulesTitle": "Quy tắc",
   "rules": [
     {
       "title": "Do bạn viết — và chỉ mình bạn",

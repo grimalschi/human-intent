@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md é um arquivo na raiz do seu repositório. Ele guarda a sua intenção: a arquitetura do projeto, as regras de desenvolvimento e as decisões de produto.",
     "Não é documentação do código. É a lei que o código deve obedecer."
   ],
-  "rulesTitle": "Três regras",
+  "rulesTitle": "As regras",
   "rules": [
     {
       "title": "Escrito por você — e somente por você",

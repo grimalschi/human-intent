@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md ist eine Datei im Stammverzeichnis deines Repositories. Sie enthält deine Absicht: die Architektur des Projekts, die Entwicklungsregeln und die Produktentscheidungen.",
     "Sie ist keine Dokumentation des Codes. Sie ist das Gesetz, dem der Code gehorchen muss."
   ],
-  "rulesTitle": "Drei Regeln",
+  "rulesTitle": "Die Regeln",
   "rules": [
     {
       "title": "Von dir geschrieben — und nur von dir",

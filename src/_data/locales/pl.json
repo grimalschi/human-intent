@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md to jeden plik w katalogu głównym repozytorium. Zawiera twój zamysł: architekturę projektu, zasady rozwoju i decyzje produktowe.",
     "To nie jest dokumentacja kodu. To prawo, któremu kod musi się podporządkować."
   ],
-  "rulesTitle": "Trzy zasady",
+  "rulesTitle": "Zasady",
   "rules": [
     {
       "title": "Piszesz go ty — i tylko ty",

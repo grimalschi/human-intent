@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md is één bestand in de root van je repository. Het bevat jouw intentie: de architectuur van het project, de ontwikkelregels en de productbeslissingen.",
     "Het is geen documentatie van de code. Het is de wet waaraan de code moet gehoorzamen."
   ],
-  "rulesTitle": "Drie regels",
+  "rulesTitle": "De regels",
   "rules": [
     {
       "title": "Geschreven door jou — en alleen door jou",

@@ -40,14 +40,14 @@
 
     <section>
       <h2>{{ locale.rulesTitle }}</h2>
-      <ol class="rules">
+      <ul class="rules">
         {%- for rule in locale.rules %}
         <li>
           <h3>{{ rule.title }}</h3>
           <p>{{ rule.body }}</p>
         </li>
         {%- endfor %}
-      </ol>
+      </ul>
     </section>
 
     <section>

@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md est un fichier à la racine de votre dépôt. Il porte votre intention : l'architecture du projet, les règles de développement et les décisions produit.",
     "Ce n'est pas la documentation du code. C'est la loi à laquelle le code doit obéir."
   ],
-  "rulesTitle": "Trois règles",
+  "rulesTitle": "Les règles",
   "rules": [
     {
       "title": "Écrit par vous — et vous seul",

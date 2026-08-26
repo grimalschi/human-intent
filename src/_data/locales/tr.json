@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md, deponuzun kök dizinindeki tek bir dosyadır. İçinde sizin niyetiniz yer alır: projenin mimarisi, geliştirme kuralları ve ürün kararları.",
     "Bu, kodun dokümantasyonu değildir. Kodun uymak zorunda olduğu yasadır."
   ],
-  "rulesTitle": "Üç kural",
+  "rulesTitle": "Kurallar",
   "rules": [
     {
       "title": "Onu siz yazarsınız — yalnızca siz",

@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md adalah satu berkas di akar repositori Anda. Ia memuat niat Anda: arsitektur proyek, aturan pengembangan, dan keputusan produk.",
     "Ini bukan dokumentasi kode. Ini hukum yang harus dipatuhi oleh kode."
   ],
-  "rulesTitle": "Tiga aturan",
+  "rulesTitle": "Aturan",
   "rules": [
     {
       "title": "Ditulis oleh Anda — dan hanya Anda",

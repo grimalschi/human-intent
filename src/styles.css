@@ -68,34 +68,14 @@ p {
   margin: 0 0 0.9rem;
 }
 
-ol.rules {
+ul.rules {
   list-style: none;
-  counter-reset: rule;
   margin: 0;
   padding: 0;
 }
 
-ol.rules li {
-  counter-increment: rule;
-  position: relative;
-  padding-inline-start: 2.5rem;
+ul.rules li {
   margin-bottom: 1.25rem;
-}
-
-ol.rules li::before {
-  content: counter(rule);
-  position: absolute;
-  inset-inline-start: 0;
-  top: 0.05rem;
-  width: 1.75rem;
-  height: 1.75rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--rule);
-  border-radius: 50%;
-  font-size: 0.9rem;
-  color: var(--muted);
 }
 
 ol.how {

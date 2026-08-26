@@ -15,7 +15,7 @@
     "HUMAN-INTENT.md is one file in the root of your repository. It holds your intent: the project's architecture, the development rules, and the product decisions.",
     "It is not documentation for the code. It is the law the code must obey."
   ],
-  "rulesTitle": "Three rules",
+  "rulesTitle": "The rules",
   "rules": [
     {
       "title": "Written by you — and only you",
